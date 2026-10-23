@@ -1,0 +1,160 @@
+export const metadata = {
+  title: "Roco Kingdom Type Chart Explained: Matchups, Multipliers, and Team Coverage",
+  description: "Master the Roco Kingdom type chart: how 2× and ½× multipliers work, dual-type math, calculator shortcuts, and team coverage tips for every battle.",
+  category: "mechanics",
+  date: "2026-10-23",
+}
+
+One wrong switch can lose a match in Roco Kingdom, and the type chart is usually the reason. The **Roco Kingdom type chart** tells you, before you tap a single skill, whether your next attack lands for double damage, gets shrugged off at half power, or does nothing special at all. Learning to read the **Roco Kingdom type chart** takes about ten minutes of study — and it pays you back in every battle you queue into afterward.
+
+This guide walks through how the matrix is built, which types actually exist, how dual-type defenders are calculated, and the workflow experienced players use to check a matchup in seconds. Everything below sticks to what the public chart shows rather than guesswork.
+
+## What the Roco Kingdom Type Chart Actually Does
+
+At its core, the chart is a grid. Attackers run down the left side as rows, defenders run across the top as columns, and every cell holds one of three outcomes. The RocoDex reference matrix uses a simple legend: **2×** for super effective, **½×** for not very effective, and a dash for a standard, unmodified hit.
+
+| Chart Result | Label | What It Means in a Fight |
+|---|---|---|
+| 2× | Super effective | Your damage is doubled — the green light to attack |
+| – (dash) | Neutral | Standard damage, no bonus, no penalty |
+| ½× | Not very effective | Your damage is halved — usually a signal to switch |
+
+Two things are worth noticing here. First, the legend only lists three outcomes, so do not assume every "resisted" matchup is a full immunity the way some other monster-battling games handle it. Second, because the grid is symmetrical in size, a chart with 18 defender types produces 18 rows and 18 columns — 324 individual cells to potentially check.
+
+That sounds intimidating. It isn't, because you never need all 324 at once. You need one row and one column for the fight in front of you.
+
+## The 18 Types at a Glance
+
+Before memorizing matchups, memorize the roster. Roco Kingdom's chart uses 18 defender types, and a few of them are unique enough that players arriving from other games misread them.
+
+| Type | Theme | Notes for New Players |
+|---|---|---|
+| Normal | Neutral, no elemental flavor | Often the "default" attacking type |
+| Grass | Plants and growth | Appears on many early-game creatures |
+| Fire | Flame and heat | Classic counter to plant-themed units |
+| Water | Aquatic | Common on starter-style creatures |
+| Light | Radiant, holy | Not present in most other type systems |
+| Ground | Earth and terrain | Frequently paired with heavy hitters |
+| Ice | Frost and cold | Often a coverage pick rather than a main type |
+| Dragon | Rare, late-game power | Usually reserved for high-tier creatures |
+| Electric | Shock and speed | Popular for fast attackers |
+| Poison | Toxin and attrition | Often paired with stalling strategies |
+| Bug | Swarms and swarming hits | Underestimated more than it should be |
+| Fighting | Martial, physical | Frequently a wall-breaker |
+| Flying | Air and wings | Common secondary type |
+| Cute | Charm and support | A Roco Kingdom-specific type — learn it early |
+| Ghost | Spectral | Frequently causes chart confusion |
+| Dark | Shadow | Usually paired with aggressive kits |
+| Mech | Machine and steel analog | Tends to appear on defensive units |
+| Psychic | Mind and control | Often a special-attack flavor |
+
+The three that trip people up most are **Light**, **Cute**, and **Mech**, simply because they have no direct equivalent in the type systems most players grew up with. Treat them as brand-new categories rather than translating them mentally.
+
+## Reading the Matrix Row by Row
+
+The fastest way to learn the chart is to read one attacker row at a time. Here is what two full rows look like on the public RocoDex matrix, transcribed as-is.
+
+**Normal as the attacking type:**
+
+| Attacker | Defender | Result |
+|---|---|---|
+| Normal | Ground | ½× |
+| Normal | Ghost | ½× |
+| Normal | Mech | ½× |
+| Normal | All 15 other types | Neutral (–) |
+
+**Grass as the attacking type:**
+
+| Attacker | Defender | Result |
+|---|---|---|
+| Grass | Fire | ½× |
+| Grass | Dragon | ½× |
+| Grass | Poison | ½× |
+| Grass | Bug | ½× |
+| Grass | Flying | ½× |
+| Grass | Mech | ½× |
+| Grass | Water | 2× |
+| Grass | Light | 2× |
+| Grass | Ground | 2× |
+| Grass | All 9 other types | Neutral (–) |
+
+Notice the pattern: most cells are neutral. A typical row has only a handful of 2× and ½× entries. That is good news — it means memorizing a row takes about thirty seconds once you strip out the blanks.
+
+To use the chart defensively, flip the process. If you are facing a Fire creature, scan the Fire **column** instead of the row to see which of your attacking types get reduced to ½×, then avoid those moves entirely.
+
+## Dual Types and Stacked Multipliers
+
+Most creatures in Roco Kingdom carry two types, and the RocoDex calculator explicitly lets you "select up to 2 types (dual-type defense)." That means the final multiplier is a combination of two separate chart lookups rather than a single one.
+
+Community players report that the calculator multiplies both defensive results together, which produces a wider spread of outcomes than a single-type matchup ever could:
+
+| First Lookup | Second Lookup | Combined Result |
+|---|---|---|
+| 2× | 2× | 4× — devastating |
+| 2× | ½× | 1× — cancels out |
+| 2× | – | 2× |
+| ½× | ½× | ¼× — nearly walled |
+| ½× | – | ½× |
+| – | – | 1× |
+
+This is the single most common source of bad decisions in battle. A player sees "Fire beats Grass" and fires off a move against a Grass/Water creature, not realizing the Water half pulls the result back down. Always check both halves of a dual type before committing to a big attack.
+
+## How to Check Any Matchup in Under 30 Seconds
+
+Speed matters more than memorization. Use this routine, adapted from how the RocoDex type calculator is structured:
+
+| Step | Action | Why It Matters |
+|---|---|---|
+| 1 | Identify the defender's full typing | Dual types change everything |
+| 2 | Open the type calculator | Faster and safer than memory |
+| 3 | Enter your attacker's type | One input, one answer |
+| 4 | Enter both defender types | The second type is the one people forget |
+| 5 | Read the combined multiplier | Look for 2× or better before attacking |
+| 6 | Check the reverse direction | Confirm what the defender can do back to you |
+
+Step 6 is the one beginners skip. Knowing that your move is super effective is only half the story — if the defender's STAB options are also super effective against your active creature, you may win the damage race and still lose the exchange.
+
+## Building a Team That Covers the Chart
+
+A team built around the Roco Kingdom type chart is not about stacking the strongest creatures. It is about making sure no single opposing type can sweep you.
+
+Use this checklist when reviewing a roster:
+
+- **Count your attacking types.** If three of your six creatures share one attacking type, your coverage is thinner than it looks.
+- **Check your defensive gaps.** Identify which types hit two or more of your creatures for 2×, and decide whether that is acceptable.
+- **Carry at least one answer to common types.** Grass, Fire, and Water show up constantly in player experience reports, so having a plan for all three is close to mandatory.
+- **Do not double up on shared weaknesses.** Two creatures with the same exploitable weakness can be removed by a single opponent's coverage move.
+- **Keep one neutral attacker.** A creature with mostly neutral matchups is your safe switch when the chart is unclear.
+
+| Coverage Goal | Healthy Sign | Warning Sign |
+|---|---|---|
+| Attacking spread | 4+ distinct attacking types | Only 2–3 types represented |
+| Defensive safety | No type hits 3+ of your team for 2× | One type threatens half your roster |
+| Switch options | 2+ creatures that resist your main weakness | Zero safe switches into your worst matchup |
+| Speed control | At least one fast attacker | Entire team is slow and reactive |
+
+## Common Mistakes Players Make With the Chart
+
+- **Assuming immunities exist everywhere.** The published legend only shows 2×, ½×, and neutral. Do not plan around a zero-damage wall unless you have confirmed it.
+- **Ignoring the second type.** Dual-type defenders are the norm, not the exception.
+- **Memorizing the whole grid.** Learn rows for the types you actually use, and look up the rest.
+- **Treating the chart as a damage calculator.** It modifies damage; it does not account for stats, levels, or skill power.
+- **Forgetting the reverse matchup.** Effective offense does not guarantee a favorable trade.
+
+For official news, events, and creature announcements, the [official Roco Kingdom portal](https://roco.qq.com/) is the primary source. For the live matrix itself, the [RocoDex type chart reference](https://rocodex.org/type-chart) is the most convenient lookup tool, and it updates faster than any printed cheat sheet.
+
+## FAQ
+
+**Is the Roco Kingdom type chart the same as other monster-battling games?**
+No. It uses 18 types, but several — Light, Cute, and Mech — have no direct equivalent elsewhere, and the published legend only lists 2×, ½×, and neutral outcomes. Treat the Roco Kingdom type chart as its own system rather than translating from another game.
+
+**How do dual-type defenders work on the Roco Kingdom type chart?**
+You look up the attacker against each of the defender's two types separately, then combine the results. Community reports indicate the two multipliers are multiplied together, which can produce results as high as 4× or as low as ¼×.
+
+**Do I need to memorize all 324 cells?**
+No. Most rows contain only a few non-neutral entries. Learn the rows for the types you actually battle with, and keep a calculator bookmarked for everything else.
+
+**What is the most important thing to check before attacking?**
+The defender's complete typing. Nearly every costly misplay comes from checking only one half of a dual type and assuming the result holds.
+
+Get the chart into your routine and it stops being homework. Check the matchup, confirm the reverse direction, and let the numbers decide the switch.

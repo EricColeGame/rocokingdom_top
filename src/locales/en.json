@@ -9,7 +9,14 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "release": "Release",
+    "download": "Download",
+    "characters": "Characters",
+    "mechanics": "Mechanics",
+    "modes": "Modes",
+    "community": "Community"
   },
   "home": {
     "meta": {
@@ -419,7 +426,34 @@
       "secondary": "Wishlist on Steam"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Roco Kingdom Beginner Guides",
+    "overviewDescription": "Master your first hours in Roco Kingdom with starter spirit advice, fast leveling routes, capture tips, team building, and battle fundamentals."
+  },
+  "release": {
+    "overviewTitle": "Roco Kingdom Release & Beta News",
+    "overviewDescription": "Follow Roco Kingdom launch timing, closed beta details, pre-registration rewards, supported platforms, and global availability updates."
+  },
+  "download": {
+    "overviewTitle": "Roco Kingdom Download Guides",
+    "overviewDescription": "Find Roco Kingdom download steps for PC, Android, and iOS, plus system requirements, file size details, and setup help."
+  },
+  "characters": {
+    "overviewTitle": "Roco Kingdom Jini & Character Guides",
+    "overviewDescription": "Browse Roco Kingdom Jini lists, starter comparisons, evolution paths, legendary spirits, shiny variants, and team roles."
+  },
+  "mechanics": {
+    "overviewTitle": "Roco Kingdom Mechanics & Systems",
+    "overviewDescription": "Understand Roco Kingdom combat, elemental matchups, catching, evolution, gacha systems, and monetization."
+  },
+  "modes": {
+    "overviewTitle": "Roco Kingdom Game Modes",
+    "overviewDescription": "Explore Roco Kingdom multiplayer, co-op play, PvP, open-world activities, and housing features."
+  },
+  "community": {
+    "overviewTitle": "Roco Kingdom Community & Access",
+    "overviewDescription": "Connect with the Roco Kingdom community through Discord, Reddit, the official website, English access notes, and free-to-play details."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -450,9 +484,9 @@
     "officialYoutube": "Official YouTube",
     "vvBuilder": "Roco Kingdom Tools",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Jinies & Races",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Skills & Builds",
+    "raceGuides": "Jinies & Characters",
+    "bossGuides": "Battle Guide",
+    "buildGuide": "Mechanics & Systems",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

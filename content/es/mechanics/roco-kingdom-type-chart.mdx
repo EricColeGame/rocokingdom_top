@@ -1,0 +1,160 @@
+export const metadata = {
+  title: "Tabla de tipos de Roco Kingdom explicada: enfrentamientos, multiplicadores y cobertura de equipo",
+  description: "Domina la tabla de tipos de Roco Kingdom: cómo funcionan los multiplicadores de 2× y ½×, las matemáticas de los tipos duales, atajos con calculadora y consejos de cobertura de equipo para cada batalla.",
+  category: "mechanics",
+  date: "2026-10-23",
+}
+
+Un cambio equivocado puede costarte una partida en Roco Kingdom, y la tabla de tipos suele ser la razón. La **tabla de tipos de Roco Kingdom** te dice, antes de activar una sola habilidad, si tu próximo ataque golpeará con daño doble, si será recibido con la mitad de potencia o si no hará nada especial. Aprender a leer la **tabla de tipos de Roco Kingdom** lleva unos diez minutos de estudio, y te recompensa en cada batalla en la que entres después.
+
+Esta guía repasa cómo se construye la matriz, qué tipos existen realmente, cómo se calculan los defensores de tipo dual y el flujo de trabajo que usan los jugadores experimentados para consultar un enfrentamiento en segundos. Todo lo siguiente se ciñe a lo que muestra la tabla pública, no a conjeturas.
+
+## Qué hace realmente la tabla de tipos de Roco Kingdom
+
+En esencia, la tabla es una cuadrícula. Los atacantes recorren el lado izquierdo como filas, los defensores recorren la parte superior como columnas, y cada celda contiene uno de tres resultados. La matriz de referencia de RocoDex usa una leyenda sencilla: **2×** para muy eficaz, **½×** para poco eficaz y un guion para un golpe estándar sin modificar.
+
+| Resultado en la tabla | Etiqueta | Qué significa en combate |
+|---|---|---|
+| 2× | Muy eficaz | Tu daño se duplica: luz verde para atacar |
+| – (guion) | Neutro | Daño estándar, sin bonificación ni penalización |
+| ½× | Poco eficaz | Tu daño se reduce a la mitad: normalmente una señal para cambiar |
+
+Hay dos cosas que conviene notar aquí. Primero, la leyenda solo enumera tres resultados, así que no supongas que cada enfrentamiento "resistido" es una inmunidad total como ocurre en otros juegos de criaturas de combate. Segundo, como la cuadrícula es simétrica en tamaño, una tabla con 18 tipos defensores produce 18 filas y 18 columnas: 324 celdas individuales que podrías consultar.
+
+Eso suena intimidante. No lo es, porque nunca necesitas las 324 a la vez. Necesitas una fila y una columna para la pelea que tienes delante.
+
+## Los 18 tipos de un vistazo
+
+Antes de memorizar los enfrentamientos, memoriza el listado. La tabla de Roco Kingdom usa 18 tipos defensores, y algunos son lo bastante únicos como para que los jugadores que llegan de otros juegos los malinterpreten.
+
+| Tipo | Tema | Notas para jugadores nuevos |
+|---|---|---|
+| Normal | Neutro, sin sabor elemental | A menudo el tipo atacante "por defecto" |
+| Planta | Plantas y crecimiento | Aparece en muchas criaturas del inicio del juego |
+| Fuego | Llama y calor | Contra clásico de las unidades de temática vegetal |
+| Agua | Acuático | Común en criaturas de estilo inicial |
+| Luz | Radiante, sagrado | No está presente en la mayoría de los otros sistemas de tipos |
+| Tierra | Tierra y terreno | Se combina con frecuencia con golpeadores pesados |
+| Hielo | Escarcha y frío | A menudo una elección de cobertura más que un tipo principal |
+| Dragón | Raro, poder de final de partida | Normalmente reservado para criaturas de alto nivel |
+| Eléctrico | Descarga y velocidad | Popular para atacantes rápidos |
+| Veneno | Toxina y desgaste | A menudo se combina con estrategias de desgaste prolongado |
+| Bicho | Enjambres y golpes en enjambre | Subestimado más de lo que debería |
+| Lucha | Marcial, físico | Frecuentemente un rompemuros |
+| Volador | Aire y alas | Tipo secundario común |
+| Lindo | Encanto y apoyo | Un tipo específico de Roco Kingdom: apréndelo pronto |
+| Fantasma | Espectral | Frecuentemente causa confusión con la tabla |
+| Oscuro | Sombra | Normalmente se combina con conjuntos agresivos |
+| Mecánico | Máquina y análogo al acero | Tiende a aparecer en unidades defensivas |
+| Psíquico | Mente y control | A menudo un estilo de ataque especial |
+
+Los tres que más confunden son **Luz**, **Lindo** y **Mecánico**, simplemente porque no tienen equivalente directo en los sistemas de tipos con los que crecieron la mayoría de los jugadores. Trátalos como categorías completamente nuevas en lugar de traducirlos mentalmente.
+
+## Leer la matriz fila por fila
+
+La forma más rápida de aprender la tabla es leer una fila de atacante a la vez. Así se ven dos filas completas en la matriz pública de RocoDex, transcritas tal cual.
+
+**Normal como tipo atacante:**
+
+| Atacante | Defensor | Resultado |
+|---|---|---|
+| Normal | Tierra | ½× |
+| Normal | Fantasma | ½× |
+| Normal | Mecánico | ½× |
+| Normal | Los otros 15 tipos | Neutro (–) |
+
+**Planta como tipo atacante:**
+
+| Atacante | Defensor | Resultado |
+|---|---|---|
+| Planta | Fuego | ½× |
+| Planta | Dragón | ½× |
+| Planta | Veneno | ½× |
+| Planta | Bicho | ½× |
+| Planta | Volador | ½× |
+| Planta | Mecánico | ½× |
+| Planta | Agua | 2× |
+| Planta | Luz | 2× |
+| Planta | Tierra | 2× |
+| Planta | Los otros 9 tipos | Neutro (–) |
+
+Fíjate en el patrón: la mayoría de las celdas son neutras. Una fila típica solo tiene un puñado de entradas de 2× y ½×. Eso son buenas noticias: significa que memorizar una fila lleva unos treinta segundos una vez que eliminas los espacios en blanco.
+
+Para usar la tabla de forma defensiva, invierte el proceso. Si te enfrentas a una criatura de Fuego, revisa la **columna** de Fuego en lugar de la fila para ver cuáles de tus tipos atacantes quedan reducidos a ½×, y luego evita esos movimientos por completo.
+
+## Tipos duales y multiplicadores acumulados
+
+La mayoría de las criaturas de Roco Kingdom llevan dos tipos, y la calculadora de RocoDex permite explícitamente "seleccionar hasta 2 tipos (defensa de tipo dual)". Eso significa que el multiplicador final es una combinación de dos consultas separadas en la tabla, no de una sola.
+
+Los jugadores de la comunidad informan que la calculadora multiplica juntos ambos resultados defensivos, lo que produce una variedad de resultados más amplia de la que jamás podría dar un enfrentamiento de un solo tipo:
+
+| Primera consulta | Segunda consulta | Resultado combinado |
+|---|---|---|
+| 2× | 2× | 4× — devastador |
+| 2× | ½× | 1× — se anula |
+| 2× | – | 2× |
+| ½× | ½× | ¼× — casi bloqueado |
+| ½× | – | ½× |
+| – | – | 1× |
+
+Esta es la fuente más común de malas decisiones en combate. Un jugador ve "Fuego vence a Planta" y lanza un movimiento contra una criatura de Planta/Agua, sin darse cuenta de que la mitad Agua vuelve a bajar el resultado. Revisa siempre ambas mitades de un tipo dual antes de comprometerte con un ataque grande.
+
+## Cómo consultar cualquier enfrentamiento en menos de 30 segundos
+
+La velocidad importa más que la memorización. Usa esta rutina, adaptada de cómo está estructurada la calculadora de tipos de RocoDex:
+
+| Paso | Acción | Por qué importa |
+|---|---|---|
+| 1 | Identifica la combinación completa de tipos del defensor | Los tipos duales lo cambian todo |
+| 2 | Abre la calculadora de tipos | Más rápido y seguro que la memoria |
+| 3 | Introduce el tipo de tu atacante | Una entrada, una respuesta |
+| 4 | Introduce ambos tipos del defensor | El segundo tipo es el que la gente olvida |
+| 5 | Lee el multiplicador combinado | Busca 2× o mejor antes de atacar |
+| 6 | Comprueba la dirección inversa | Confirma qué puede hacer el defensor contra ti |
+
+El paso 6 es el que se saltan los principiantes. Saber que tu movimiento es muy eficaz es solo la mitad de la historia: si las opciones de STAB del defensor también son muy eficaces contra tu criatura activa, puedes ganar la carrera de daño y aun así perder el intercambio.
+
+## Construir un equipo que cubra la tabla
+
+Un equipo construido alrededor de la tabla de tipos de Roco Kingdom no consiste en acumular las criaturas más fuertes. Consiste en asegurarte de que ningún tipo rival pueda arrasarte.
+
+Usa esta lista de comprobación al revisar una plantilla:
+
+- **Cuenta tus tipos atacantes.** Si tres de tus seis criaturas comparten un tipo atacante, tu cobertura es más fina de lo que parece.
+- **Revisa tus huecos defensivos.** Identifica qué tipos golpean a dos o más de tus criaturas para 2× y decide si eso es aceptable.
+- **Lleva al menos una respuesta a los tipos comunes.** Planta, Fuego y Agua aparecen constantemente en los informes de experiencia de los jugadores, así que tener un plan para los tres es casi obligatorio.
+- **No dupliques debilidades compartidas.** Dos criaturas con la misma debilidad explotable pueden ser eliminadas por un solo movimiento de cobertura del rival.
+- **Mantén un atacante neutro.** Una criatura con enfrentamientos mayormente neutros es tu cambio seguro cuando la tabla no está clara.
+
+| Objetivo de cobertura | Señal saludable | Señal de advertencia |
+|---|---|---|
+| Distribución atacante | 4+ tipos atacantes distintos | Solo 2–3 tipos representados |
+| Seguridad defensiva | Ningún tipo golpea a 3+ de tu equipo para 2× | Un tipo amenaza a la mitad de tu plantilla |
+| Opciones de cambio | 2+ criaturas que resisten tu debilidad principal | Cero cambios seguros ante tu peor enfrentamiento |
+| Control de velocidad | Al menos un atacante rápido | Todo el equipo es lento y reactivo |
+
+## Errores comunes de los jugadores con la tabla
+
+- **Suponer que existen inmunidades en todas partes.** La leyenda publicada solo muestra 2×, ½× y neutro. No planifiques en torno a un muro de daño cero a menos que lo hayas confirmado.
+- **Ignorar el segundo tipo.** Los defensores de tipo dual son la norma, no la excepción.
+- **Memorizar toda la cuadrícula.** Aprende las filas de los tipos que realmente usas y consulta el resto.
+- **Tratar la tabla como una calculadora de daño.** Modifica el daño; no tiene en cuenta estadísticas, niveles ni potencia de habilidades.
+- **Olvidar el enfrentamiento inverso.** Una ofensiva eficaz no garantiza un intercambio favorable.
+
+Para noticias oficiales, eventos y anuncios de criaturas, el [portal oficial de Roco Kingdom](https://roco.qq.com/) es la fuente principal. Para la matriz en vivo, la [referencia de la tabla de tipos de RocoDex](https://rocodex.org/type-chart) es la herramienta de consulta más cómoda, y se actualiza más rápido que cualquier chuleta impresa.
+
+## Preguntas frecuentes
+
+**¿La tabla de tipos de Roco Kingdom es igual que la de otros juegos de criaturas de combate?**
+No. Usa 18 tipos, pero varios —Luz, Lindo y Mecánico— no tienen equivalente directo en otros juegos, y la leyenda publicada solo enumera resultados de 2×, ½× y neutro. Trata la tabla de tipos de Roco Kingdom como su propio sistema en lugar de traducirla desde otro juego.
+
+**¿Cómo funcionan los defensores de tipo dual en la tabla de tipos de Roco Kingdom?**
+Consultas al atacante contra cada uno de los dos tipos del defensor por separado y luego combinas los resultados. Los informes de la comunidad indican que los dos multiplicadores se multiplican entre sí, lo que puede producir resultados tan altos como 4× o tan bajos como ¼×.
+
+**¿Necesito memorizar las 324 celdas?**
+No. La mayoría de las filas contienen solo unas pocas entradas no neutras. Aprende las filas de los tipos con los que realmente combates y mantén una calculadora guardada en marcadores para todo lo demás.
+
+**¿Qué es lo más importante que hay que revisar antes de atacar?**
+La combinación completa de tipos del defensor. Casi todos los errores costosos provienen de revisar solo una mitad de un tipo dual y asumir que el resultado se mantiene.
+
+Integra la tabla en tu rutina y dejará de ser una tarea. Consulta el enfrentamiento, confirma la dirección inversa y deja que los números decidan el cambio.
