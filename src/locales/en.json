@@ -2,9 +2,9 @@
   "site": {
     "name": "Roco Kingdom Wiki",
     "shortName": "Roco Kingdom",
-    "tagline": "Complete Guides, Codes, Recipes & Tier Lists",
-    "description": "Your ultimate guide to Roco Kingdom on Roblox! Explore active codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-    "legalNotice": "Non-official fan wiki. Made by players, for players."
+    "tagline": "Jinies, Guides & Beta News",
+    "description": "Explore Roco Kingdom Wiki for Jini collecting, beginner guides, combat strategies, world exploration, beta news, multiplayer tips, and creature guides.",
+    "legalNotice": "Non-official fan wiki. Roco Kingdom and related assets belong to their respective owners."
   },
   "nav": {
     "races": "Races",
@@ -30,19 +30,19 @@
       "description": "Complete Roco Kingdom guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
     },
     "hero": {
-      "eyebrow": "Fan-Made Community Wiki",
-      "title": "Roco Kingdom",
-      "description": "Master your restaurant in Roco Kingdom on Roblox. Access all active codes, complete fish & recipe catalog, optimal upgrades, and pro money-making strategies.",
+      "eyebrow": "Open-World Creature Collecting RPG",
+      "title": "Roco Kingdom Wiki",
+      "description": "Explore a magical open world, discover and befriend hundreds of unique Jinies, team up with friends, and master tactical PvP battles in Roco Kingdom.",
       "stats": [
-        "All Codes",
-        "All Fish & Recipes",
-        "Upgrade Guides",
-        "Fast Cash Tips"
+        "400+ Unique Jinies",
+        "Oct 27, 2026 Closed Beta Start",
+        "PC, iOS, Android Beta Platforms",
+        "English, Japanese Beta Languages"
       ],
       "primaryCta": "Beginner Guide",
-      "secondaryCta": "Seafood Tier List",
-      "tertiaryCta": "Active Codes",
-      "videoLabel": "Official media"
+      "secondaryCta": "Play on PC & Mobile",
+      "tertiaryCta": "Wishlist on Steam",
+      "videoLabel": "Official Trailer"
     },
     "updates": {
       "title": "Latest Updates",
@@ -342,10 +342,10 @@
       ]
     },
     "finalCta": {
-      "title": "Ready to Master Roco Kingdom?",
-      "description": "From your first steps in Fort Adams to endgame boss fights our community wiki has you covered with free, up-to-date guides.",
+      "title": "Ready to Explore Roco Kingdom?",
+      "description": "Join the closed beta on October 27, 2026, discover 400+ Jinies, and master tactical PvP with our free, community-built guides.",
       "primary": "Read the Beginner Guide",
-      "secondary": "Play on Roblox"
+      "secondary": "Wishlist on Steam"
     }
   },
   "bosses": {
@@ -380,20 +380,20 @@
   },
   "footer": {
     "aboutTitle": "Roco Kingdom Wiki",
-    "about": "Roco Kingdom Wiki is an independent fan-built guide hub covering progression routes, races, bosses, builds, and essential game knowledge for new and veteran players alike.",
+    "about": "Roco Kingdom Wiki is an independent fan-built guide hub covering Jinies, world exploration, combat, PvP, beta news, and essential game knowledge for new and veteran players alike.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "legal": "Legal",
-    "copyright": "2026 Roco Kingdom Wiki. Not affiliated with Midnight Continent or Roblox.",
-    "description": "Free Bleach-inspired fighting RPG on Roblox. 3 races, 130+ skills, Lv100 cap.",
-    "playGame": "Play Roco Kingdom",
+    "copyright": "2026 Roco Kingdom Wiki. Not affiliated with Roco Kingdom's official developers or publishers.",
+    "description": "Open-world creature collecting RPG with 400+ Jinies, tactical PvP, and co-op exploration on PC and mobile.",
+    "playGame": "Play on PC & Mobile",
     "officialDiscord": "Official Discord",
     "officialYoutube": "Official YouTube",
-    "vvBuilder": "VV Builder (Skill Planner)",
+    "vvBuilder": "Roco Kingdom Tools",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
+    "raceGuides": "Jinies & Races",
     "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "buildGuide": "Skills & Builds",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

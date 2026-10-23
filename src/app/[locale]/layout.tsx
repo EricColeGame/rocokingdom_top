@@ -24,8 +24,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
   return {
     metadataBase: new URL(siteUrl),
-    title: { default: "Roco Kingdom Wiki — Jinies, Guides & Beta News", template: `%s | ${siteConfig.name}` },
-    description: "Explore Roco Kingdom Wiki for Jini collecting, beginner guides, combat strategies, world exploration, beta news, multiplayer tips, and creature guides.",
+    title: { default: "Roco Kingdom Wiki", template: `%s | ${siteConfig.name}` },
+    description: siteConfig.description,
     keywords: ["Roco Kingdom", "Jinies", "guides", "beta news", "PvP", "creature collecting"],
     applicationName: siteConfig.name,
     manifest: "/manifest.json",
@@ -38,8 +38,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
     },
     appleWebApp: { capable: true, statusBarStyle: "default", title: siteConfig.name },
-    openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, images: [{ url: image, width: 1280, height: 720, alt: siteConfig.name }] },
-    twitter: { card: "summary_large_image", images: [image] },
+    openGraph: { type: "website", locale, url: `${siteUrl}/${locale}`, siteName: siteConfig.name, title: "Roco Kingdom Wiki", description: siteConfig.description, images: [{ url: image, width: 1280, height: 720, alt: `${siteConfig.name} official trailer artwork` }] },
+    twitter: { card: "summary_large_image", title: "Roco Kingdom Wiki", description: siteConfig.description, images: [image] },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
   };
 }
@@ -54,8 +54,10 @@ export default async function LocaleLayout({ children, params }: { children: Rea
     "@type": "Organization",
     name: siteConfig.name,
     url: siteUrl,
-    logo: `${siteUrl}/android-chrome-512x512.png`,
-    image: `${siteUrl}/images/hero.webp`,
+    "logo": `${siteUrl}/android-chrome-512x512.png`,
+    "image": `${siteUrl}/images/hero.webp`,
+    description: siteConfig.description,
+    sameAs: [siteConfig.gameUrl, siteConfig.social?.discord, siteConfig.social?.youtube, siteConfig.social?.twitter].filter(Boolean),
   };
 
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;

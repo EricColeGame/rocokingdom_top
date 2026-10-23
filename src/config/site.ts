@@ -25,7 +25,7 @@ export const siteConfig: SiteConfig = {
   tagline: "Jinies, Guides & Beta News",
   description: "Explore Roco Kingdom Wiki for Jini collecting, beginner guides, combat strategies, world exploration, beta news, multiplayer tips, and creature guides.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://rocokingdom.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://rocokingdom.top").hostname.replace(/^www\./, "")}`,
+  supportEmail: "support@rocokingdom.top",
   gameUrl: "https://rocokingdom.com/",
   heroVideoId: "1b_rKJ-ObI4", // Roco Kingdom - Official Trailer
   social: {
