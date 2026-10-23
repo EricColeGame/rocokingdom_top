@@ -13,8 +13,8 @@
   },
   "home": {
     "meta": {
-      "title": "Roco Kingdom Wiki — Codes, Recipes, Upgrades & Guides",
-      "description": "Complete Roco Kingdom guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
+      "title": "Roco Kingdom Wiki — Jinies, Guides & Beta News",
+      "description": "Roco Kingdom guides for Jinies, starter choices, evolution, combat, open-world exploration, and closed beta news."
     },
     "hero": {
       "eyebrow": "Open-World Creature Collecting RPG",
@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Follow the first-48-hour route: push the main quest, complete Magic Handbook courses, and catch new Jinies for fast early XP."
         },
         {
           "number": "2",
           "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "description": "Prioritize new Jinie registrations, main quests, and Handbook courses while saving stamina for bosses and rare encounters."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Best Starter",
+          "description": "Compare the Fire, Water, and Nature starters by clear speed, boss safety, and long-term team fit before choosing your partner."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Roco Kingdom."
+          "title": "How to Evolve",
+          "description": "Plan each evolution line, bank the required item, and evolve before spending move or gear resources."
         }
       ]
     },
@@ -66,265 +66,349 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "All Jinies",
+        "Combat Basics",
+        "Release News"
       ],
       "cards": [
         {
           "badge": "Beginner",
-          "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
-        },
-        {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "title": "Roco Kingdom Beginner Guide",
+          "description": "Plan the first 48 hours with starter advice, fast XP sources, obedience caps, and free RocoBucks.",
+          "href": "/guide/roco-kingdom-beginner-guide"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "title": "Roco Kingdom All Jinies",
+          "description": "Browse featured Jinies, reported stat totals, type matchups, and team-building roles.",
+          "href": "/characters/roco-kingdom-all-jinies"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "badge": "Guide",
+          "title": "Roco Kingdom Evolution Guide",
+          "description": "Read full evolution lines, confirm triggers, and time each permanent transformation.",
+          "href": "/mechanics/roco-kingdom-evolution-guide"
         },
         {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "badge": "Combat",
+          "title": "Roco Kingdom Combat System",
+          "description": "Learn turn order, star stamina, skill traits, and the 18-class elemental counter web.",
+          "href": "/mechanics/roco-kingdom-combat-system"
         },
         {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "badge": "Explore",
+          "title": "Roco Kingdom Open World",
+          "description": "Explore Carosia, catch 400+ Jinies, ride with friends, and build a home base.",
+          "href": "/modes/roco-kingdom-open-world"
         },
         {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "badge": "Beta",
+          "title": "Roco Kingdom Global Release Date",
+          "description": "Track the Quack Quack Test, pre-registration rewards, and confirmed platforms.",
+          "href": "/release/roco-kingdom-global-release-date"
         },
         {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Download",
+          "title": "Roco Kingdom PC Requirements",
+          "description": "Check minimum and recommended specs, RAM needs, anti-cheat notes, and setup steps.",
+          "href": "/download/roco-kingdom-pc-requirements"
+        },
+        {
+          "badge": "Starter",
+          "title": "Roco Kingdom Best Starter",
+          "description": "Compare the Fire, Water, and Nature opening creatures by early tempo and team fit.",
+          "href": "/characters/roco-kingdom-best-starter-comparison"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Roco Kingdom?",
       "paragraphs": [
-        "Roco Kingdom is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Roco Kingdom is an open-world creature-collecting RPG from Morefun Studios. Players explore the seamless continent of Carosia, meet and catch more than 400 unique Jinies, build a team, and take part in turn-based PvP where levels are equalized.",
+        "Beyond exploration, Roco Kingdom includes co-op riding and shared rewards, Magic Academy classes, home building, and an 18-class elemental counter system. The global closed beta, called the Quack Quack Test, is scheduled for October 27, 2026 on PC, iOS, and Android."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Morefun Studios"
         },
         {
-          "label": "Platform",
-          "value": "Roblox"
+          "label": "Publisher",
+          "value": "Level Infinite"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Creature-Collecting RPG"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Platforms",
+          "value": "PC, PlayStation, Xbox, Mobile"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Jinies",
+          "value": "400+"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Element Classes",
+          "value": "18"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Closed Beta",
+          "value": "Oct 27, 2026"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Roco Kingdom Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Plan your Roco Kingdom adventure with beginner routes, a complete Jinie index, evolution advice, combat tactics, exploration tips, and beta details.",
       "modules": [
         {
           "order": 1,
-          "name": "Roco Kingdom Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/roco-kingdom-codes",
-          "displayType": "code-box",
+          "name": "Roco Kingdom Beginner Guide",
+          "description": "Start your first 48 hours with a clear route through the main quest, Magic Handbook courses, starter choice, stamina use, and early XP sources.",
+          "href": "/guide/roco-kingdom-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Push the main quest to unlock the Magic Handbook, mounts, and core systems."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Complete Magic Handbook courses for strong XP returns per point of stamina."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Catch each new Jinie you meet because first-time registrations award experience."
+            },
+            {
+              "label": "4",
+              "detail": "Start time-gated side quests early, including the friend task and the RocoBucks task."
+            },
+            {
+              "label": "5",
+              "detail": "Collect free Coin Machine rewards, including 990K RocoBucks on Peter Avenue."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/roco-kingdom-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Roco Kingdom Jinies Guide",
+          "description": "Browse Jinies by type, base stats, skills, evolution path, and obtain notes, then turn each entry into a team decision.",
+          "href": "/characters/roco-kingdom-all-jinies",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Roster",
+              "detail": "Community databases index 644 Jinies across 18 types, while the open world features more than 400."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Stats",
+              "detail": "Compare base stats, IV quality, nature, and training progress before investing resources."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Roles",
+              "detail": "Build a primary attacker, a bulky anchor, a coverage pick, and a flexible high-ceiling slot."
+            },
+            {
+              "label": "Evolve",
+              "detail": "Read the full evolution chain before leveling a Jinie you may replace later."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/roco-kingdom-tier-list",
-          "displayType": "tier-grid",
+          "name": "Roco Kingdom Codes",
+          "description": "Track official Roco Kingdom code announcements, redemption steps, and the account details needed when promotions go live.",
+          "href": "/community/roco-kingdom-official-website",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "News",
+              "detail": "Follow the official site and news feed for launch promotions and code announcements."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "X",
+              "detail": "Watch @RocoKingdomEN for code drops and closed beta notices."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Discord",
+              "detail": "Join the official Roco Kingdom Discord for redemption updates and community alerts."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Account",
+              "detail": "Keep the Level Infinite account and email used for pre-registration ready for future rewards."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/roco-kingdom-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Roco Kingdom Jinie Tier List",
+          "description": "Rank featured Jinies by community-tracked base stat totals, then check type, skill pool, and team role before investing.",
+          "href": "/characters/roco-kingdom-all-jinies",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "S",
+              "detail": "Dimo - Light type with a reported 582 stat total, the highest among the featured Jinies."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "A",
+              "detail": "Shuilanlan - Water type with a reported 372 total and a stable, flexible team role."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "B",
+              "detail": "Miaomiao - Grass type with a reported 370 total and useful coverage for a balanced team."
+            },
+            {
+              "label": "C",
+              "detail": "Huohua - Fire type with a reported 368 total and strong early pressure despite the lower total."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/roco-kingdom-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Roco Kingdom Combat Guide",
+          "description": "Learn turn-based battle flow, star stamina management, matchup reads, team roles, and fair PvP tactics.",
+          "href": "/guide/roco-kingdom-battle-guide",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Turns",
+              "detail": "Both sides act in sequence, with four pre-selected skills and a stamina bar deciding each exchange."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Stamina",
+              "detail": "Attacks consume star stamina, and a low bar forces a recovery turn."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Matchups",
+              "detail": "The UI flags weaknesses, so experienced players bait attacks into resistances."
+            },
+            {
+              "label": "Roles",
+              "detail": "Build an opener, wall breaker, pivot, and closer instead of stacking damage."
+            },
+            {
+              "label": "Fair PvP",
+              "detail": "Levels are equalized in PvP, shifting results toward team building and matchup reads."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/roco-kingdom-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Roco Kingdom Exploration Guide",
+          "description": "Navigate Carosia, meet wild Jinies, share co-op rewards, and make the most of the open-world systems.",
+          "href": "/modes/roco-kingdom-open-world",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Carosia",
+              "detail": "Explore one seamless continent with mounts, stamina management, and region-specific Jinies."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Co-Op",
+              "detail": "Ride a Jinie with a friend, share gathering rewards, and split battle EXP."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Academy",
+              "detail": "Pick a school, attend Outdoor Classroom, and climb the Academy Points Tournament."
+            },
+            {
+              "label": "Housing",
+              "detail": "Build and decorate a personal base while collecting resources across the world."
+            },
+            {
+              "label": "Forms",
+              "detail": "Hunt standard, prismatic, chromatic, and nightmare-corrupted Jini appearances."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Roco Kingdom Download and System Requirements",
+          "description": "Prepare for PC, Android, and iOS access with account setup, storefront wishlists, confirmed specs, and launch-day checks.",
+          "href": "/download/roco-kingdom-pc-requirements",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Create or sign in to a Level Infinite account for beta access and launch rewards."
+            },
+            {
+              "label": "2",
+              "detail": "Pre-register on rocokingdom.com to secure the Drowsiquack Name Card."
+            },
+            {
+              "label": "3",
+              "detail": "Wishlist Roco Kingdom on Steam, Epic Games, PlayStation, and Xbox."
+            },
+            {
+              "label": "4",
+              "detail": "Check for 64-bit Windows 10, 16 GB RAM, and a supported CPU before launch."
+            },
+            {
+              "label": "5",
+              "detail": "Install the Steam client or official PC launcher and keep your account email unchanged."
+            },
+            {
+              "label": "6",
+              "detail": "Update Windows and GPU drivers, then free SSD space for the open world."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Roco Kingdom News and Release Updates",
+          "description": "Track official announcements for the Quack Quack Test, pre-registration rewards, platform availability, and the global launch.",
+          "href": "/release/roco-kingdom-global-release-date",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Oct 27",
+              "detail": "The Quack Quack Test closed beta begins at 04:30 UTC on PC, iOS, and Android."
+            },
+            {
+              "label": "Pre-Reg",
+              "detail": "Pre-registration is live and grants the Drowsiquack Name Card at open beta."
+            },
+            {
+              "label": "Stores",
+              "detail": "Wishlist pages are open on Steam, Epic Games, PlayStation, and Xbox."
+            },
+            {
+              "label": "Launch",
+              "detail": "The global release date and open beta timing have not been announced."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Roco Kingdom.",
+      "title": "Roco Kingdom Frequently Asked Questions",
+      "description": "Quick answers about Roco Kingdom starters, Jinies, evolution, platforms, co-op, and beta timing.",
       "items": [
         {
           "question": "What is Roco Kingdom?",
-          "answer": "Roco Kingdom is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Roco Kingdom is an open-world creature-collecting RPG from Morefun Studios. It takes place on the continent of Carosia, where players catch and train more than 400 unique Jinies, explore with friends, and battle in turn-based PvP with equalized levels."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Which Roco Kingdom starter should beginners choose?",
+          "answer": "The Water starter has the widest margin for error, while the Fire starter clears early fights faster and the Nature starter offers sustain and control. Choose the Roco Kingdom starter that matches your planned team and playstyle."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How do Roco Kingdom Jinies evolve?",
+          "answer": "Each Roco Kingdom Jinie follows a defined evolution line with its own trigger, such as a level, item, bond, or condition. Read the full line, bank the required item, and remember that most evolutions are permanent."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "When does Roco Kingdom launch?",
+          "answer": "The Roco Kingdom Quack Quack Test closed beta begins on October 27, 2026 at 04:30 UTC for PC, iOS, and Android. A global launch date and open beta window have not been announced."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Can I play Roco Kingdom with friends?",
+          "answer": "Yes. Roco Kingdom supports co-op riding, shared gathering rewards, shared battle EXP, cross-platform play, and turn-based PvP duels with an 18-class elemental counter system."
         }
       ]
     },
