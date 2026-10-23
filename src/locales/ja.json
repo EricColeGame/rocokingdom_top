@@ -1,1 +1,493 @@
-{}
+{
+  "site": {
+    "name": "ロコキングダム Wiki",
+    "shortName": "ロコキングダム",
+    "tagline": "ジニー、攻略ガイド、β情報",
+    "description": "ロコキングダム Wikiで、ジニー収集、初心者ガイド、戦闘戦略、世界探索、β情報、マルチプレイのコツ、クリーチャーガイドをチェック。",
+    "legalNotice": "非公式のファンWikiです。ロコキングダムおよび関連素材の権利は各権利者に帰属します。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "menu": "メニュー",
+    "toggleTheme": "テーマ切替",
+    "guide": "ガイド",
+    "release": "リリース",
+    "download": "ダウンロード",
+    "characters": "キャラクター",
+    "mechanics": "メカニクス",
+    "modes": "モード",
+    "community": "コミュニティ"
+  },
+  "home": {
+    "meta": {
+      "title": "ロコキングダム Wiki — ジニー、攻略ガイド、β情報",
+      "description": "ジニー、初期クリーチャー選び、進化、戦闘、オープンワールド探索、クローズドβ情報を扱うロコキングダム攻略ガイド。"
+    },
+    "hero": {
+      "eyebrow": "オープンワールド・クリーチャー収集RPG",
+      "title": "ロコキングダム Wiki",
+      "description": "魔法に満ちたオープンワールドを探索し、何百種もの個性豊かなジニーを見つけて仲間にし、友達とチームを組んで、ロコキングダムの戦略的なPvPバトルを極めよう。",
+      "stats": [
+        "400種以上の個性豊かなジニー",
+        "2026年10月27日 クローズドβ開始",
+        "PC・iOS・Android β対応",
+        "β対応言語：英語・日本語"
+      ],
+      "primaryCta": "初心者ガイド",
+      "secondaryCta": "PC・モバイルでプレイ",
+      "tertiaryCta": "Steamでウィッシュリスト登録",
+      "videoLabel": "公式トレーラー"
+    },
+    "updates": {
+      "title": "最新情報",
+      "browse": "すべてのガイドを見る",
+      "viewAll": "すべて見る"
+    },
+    "start": {
+      "eyebrow": "ここから始める",
+      "title": "ロコキングダムの冒険",
+      "cards": [
+        {
+          "number": "1",
+          "title": "初心者ガイド",
+          "description": "最初の48時間ルートを進めよう。メインクエストを進め、マジックハンドブックの講義を完了し、新しいジニーを捕まえて序盤の経験値を効率よく稼ぐ。"
+        },
+        {
+          "number": "2",
+          "title": "最速レベル上げ",
+          "description": "新しいジニーの登録、メインクエスト、ハンドブック講義を優先し、ボスやレア遭遇のためにスタミナを温存する。"
+        },
+        {
+          "number": "3",
+          "title": "最適な初期クリーチャー",
+          "description": "パートナーを選ぶ前に、火・水・自然の初期クリーチャーをクリア速度、ボス戦の安定性、長期的なチーム適性で比較する。"
+        },
+        {
+          "number": "4",
+          "title": "進化の方法",
+          "description": "各進化ラインを計画し、必要なアイテムを確保して、技や装備の資源を使う前に進化させる。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "人気ページ",
+      "title": "いま話題の記事",
+      "quickLinks": [
+        "初心者ガイド",
+        "すべてのジニー",
+        "戦闘の基本",
+        "リリース情報"
+      ],
+      "cards": [
+        {
+          "badge": "初心者",
+          "title": "ロコキングダム初心者ガイド",
+          "description": "初期クリーチャーの選び方、効率的な経験値源、従順度の上限、無料のロコバックスを交えて最初の48時間を計画。",
+          "href": "/guide/roco-kingdom-beginner-guide"
+        },
+        {
+          "badge": "人気",
+          "title": "ロコキングダムの全ジニー",
+          "description": "注目のジニー、報告されている能力値合計、タイプ相性、チーム編成での役割を一覧。",
+          "href": "/characters/roco-kingdom-all-jinies"
+        },
+        {
+          "badge": "ガイド",
+          "title": "ロコキングダム進化ガイド",
+          "description": "完全な進化ラインを読み、条件を確認し、永続的な変化を起こすタイミングを見極める。",
+          "href": "/mechanics/roco-kingdom-evolution-guide"
+        },
+        {
+          "badge": "戦闘",
+          "title": "ロコキングダム戦闘システム",
+          "description": "ターン順、スタースタミナ、スキル特性、18クラスの属性相性ネットワークを学ぶ。",
+          "href": "/mechanics/roco-kingdom-combat-system"
+        },
+        {
+          "badge": "探索",
+          "title": "ロコキングダムのオープンワールド",
+          "description": "カロシアを探索し、400種以上のジニーを捕まえ、友達と一緒に騎乗し、拠点を築く。",
+          "href": "/modes/roco-kingdom-open-world"
+        },
+        {
+          "badge": "β",
+          "title": "ロコキングダムのグローバルリリース日",
+          "description": "Quack Quack Test、事前登録報酬、確定済みのプラットフォームを追う。",
+          "href": "/release/roco-kingdom-global-release-date"
+        },
+        {
+          "badge": "ダウンロード",
+          "title": "ロコキングダムのPC動作環境",
+          "description": "最低・推奨スペック、必要なメモリ、アンチチートに関する注意、セットアップ手順を確認。",
+          "href": "/download/roco-kingdom-pc-requirements"
+        },
+        {
+          "badge": "初期",
+          "title": "ロコキングダムのおすすめ初期クリーチャー",
+          "description": "火・水・自然の初期クリーチャーを序盤のテンポとチーム適性で比較。",
+          "href": "/characters/roco-kingdom-best-starter-comparison"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "ロコキングダムとは？",
+      "paragraphs": [
+        "ロコキングダムはMorefun Studiosが贈るオープンワールド・クリーチャー収集RPGです。プレイヤーはシームレスにつながるカロシア大陸を探索し、400種以上の個性豊かなジニーと出会って捕まえ、チームを編成し、レベルが均一化されるターン制PvPに参加します。",
+        "探索だけでなく、ロコキングダムには協力騎乗と報酬共有、マジックアカデミーの授業、拠点づくり、18クラスの属性相性システムがあります。Quack Quack Testと呼ばれるグローバルクローズドβは、2026年10月27日にPC、iOS、Androidで開始予定です。"
+      ],
+      "stats": [
+        {
+          "label": "開発",
+          "value": "Morefun Studios"
+        },
+        {
+          "label": "パブリッシャー",
+          "value": "Level Infinite"
+        },
+        {
+          "label": "ジャンル",
+          "value": "クリーチャー収集RPG"
+        },
+        {
+          "label": "対応プラットフォーム",
+          "value": "PC、PlayStation、Xbox、モバイル"
+        },
+        {
+          "label": "ジニー",
+          "value": "400種以上"
+        },
+        {
+          "label": "属性クラス",
+          "value": "18"
+        },
+        {
+          "label": "クローズドβ",
+          "value": "2026年10月27日"
+        }
+      ],
+      "cta": "すべてのガイドを見る"
+    },
+    "explore": {
+      "title": "ロコキングダム Wikiを探索",
+      "description": "初心者ルート、完全なジニー索引、進化のアドバイス、戦闘戦術、探索のコツ、βの詳細でロコキングダムの冒険を計画しよう。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "ロコキングダム初心者ガイド",
+          "description": "メインクエスト、マジックハンドブックの講義、初期クリーチャー選び、スタミナの使い方、序盤の経験値源を通る明確なルートで最初の48時間を始めよう。",
+          "href": "/guide/roco-kingdom-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "メインクエストを進めてマジックハンドブック、マウント、主要システムを解放する。"
+            },
+            {
+              "label": "2",
+              "detail": "マジックハンドブックの講義を完了し、スタミナ1ポイントあたりの高い経験値効率を得る。"
+            },
+            {
+              "label": "3",
+              "detail": "初回登録で経験値がもらえるため、出会った新しいジニーはすべて捕まえる。"
+            },
+            {
+              "label": "4",
+              "detail": "フレンド任務やロコバックス任務など、時間制限のあるサブクエストを早めに開始する。"
+            },
+            {
+              "label": "5",
+              "detail": "ピーターアベニューにある99万ロコバックスなど、コインマシンの無料報酬を受け取る。"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "ロコキングダムのジニーガイド",
+          "description": "タイプ、基礎能力値、スキル、進化経路、入手方法のメモからジニーを探し、各項目をチーム編成の判断につなげる。",
+          "href": "/characters/roco-kingdom-all-jinies",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "一覧",
+              "detail": "コミュニティのデータベースには18タイプ・644種のジニーが登録され、オープンワールドには400種以上が登場する。"
+            },
+            {
+              "label": "能力値",
+              "detail": "資源を投資する前に、基礎能力値、IVの質、性格、育成状況を比較する。"
+            },
+            {
+              "label": "役割",
+              "detail": "主力アタッカー、耐久アンカー、補完枠、柔軟な高伸びしろ枠を組み合わせる。"
+            },
+            {
+              "label": "進化",
+              "detail": "後で入れ替える可能性があるジニーを育てる前に、進化チェーン全体を確認する。"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "ロコキングダムのコード",
+          "description": "ロコキングダムの公式コード発表、引き換え手順、プロモーション開始時に必要なアカウント情報を追う。",
+          "href": "/community/roco-kingdom-official-website",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "ニュース",
+              "detail": "公式サイトとニュースフィードで、ローンチプロモーションとコード発表を確認する。"
+            },
+            {
+              "label": "X",
+              "detail": "@RocoKingdomENをフォローして、コード配布とクローズドβのお知らせをチェックする。"
+            },
+            {
+              "label": "Discord",
+              "detail": "公式ロコキングダムDiscordに参加し、引き換え情報とコミュニティのお知らせを受け取る。"
+            },
+            {
+              "label": "アカウント",
+              "detail": "事前登録に使ったLevel Infiniteアカウントとメールを、今後の報酬に備えて用意しておく。"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "ロコキングダムのジニーTierリスト",
+          "description": "コミュニティが追跡する基礎能力値合計で注目ジニーを順位付けし、投資前にタイプ、スキルプール、チームでの役割を確認する。",
+          "href": "/characters/roco-kingdom-all-jinies",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "ディモ — 光タイプ。報告されている能力値合計は582で、注目ジニーの中では最高。"
+            },
+            {
+              "label": "A",
+              "detail": "シュイランラン — 水タイプ。報告されている合計は372で、安定して柔軟なチーム役割を持つ。"
+            },
+            {
+              "label": "B",
+              "detail": "ミャオミャオ — 草タイプ。報告されている合計は370で、バランスの取れたチームに役立つ補完性能を持つ。"
+            },
+            {
+              "label": "C",
+              "detail": "フオフア — 火タイプ。報告されている合計は368だが、序盤の圧力は強い。"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "ロコキングダム戦闘ガイド",
+          "description": "ターン制バトルの流れ、スタースタミナ管理、相性の読み方、チームの役割、公平なPvP戦術を学ぶ。",
+          "href": "/guide/roco-kingdom-battle-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "ターン",
+              "detail": "両陣営が順番に行動し、事前選択した4つのスキルとスタミナバーが各やり取りを左右する。"
+            },
+            {
+              "label": "スタミナ",
+              "detail": "攻撃はスタースタミナを消費し、バーが少ないと回復ターンを強いられる。"
+            },
+            {
+              "label": "相性",
+              "detail": "UIに弱点が表示されるため、熟練者は相手の攻撃を耐性属性へ誘導する。"
+            },
+            {
+              "label": "役割",
+              "detail": "ダメージを重ねるだけでなく、先鋒、壁破り、ピボット、締め役を編成する。"
+            },
+            {
+              "label": "公平なPvP",
+              "detail": "PvPではレベルが均一化されるため、チーム編成と相性の読みが結果を大きく左右する。"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "ロコキングダム探索ガイド",
+          "description": "カロシアを巡り、野生のジニーと出会い、協力報酬を共有し、オープンワールドのシステムを最大限に活用する。",
+          "href": "/modes/roco-kingdom-open-world",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "カロシア",
+              "detail": "マウント、スタミナ管理、地域ごとのジニーを楽しみながら、ひとつながりの大陸を探索する。"
+            },
+            {
+              "label": "協力プレイ",
+              "detail": "友達とジニーに騎乗し、採集報酬を共有し、戦闘経験値を分け合う。"
+            },
+            {
+              "label": "アカデミー",
+              "detail": "学校を選び、屋外教室に参加し、アカデミーポイントトーナメントを勝ち上がる。"
+            },
+            {
+              "label": "住宅",
+              "detail": "世界中で資源を集めながら、自分だけの拠点を建てて飾る。"
+            },
+            {
+              "label": "形態",
+              "detail": "通常、プリズム、クロマチック、ナイトメアに侵されたジニーの出現を探す。"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "ロコキングダムのダウンロードと動作環境",
+          "description": "アカウント設定、ストアのウィッシュリスト、確定済みスペック、ローンチ当日の確認事項を押さえて、PC、Android、iOSでのアクセスに備える。",
+          "href": "/download/roco-kingdom-pc-requirements",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "βアクセスとローンチ報酬のために、Level Infiniteアカウントを作成するかサインインする。"
+            },
+            {
+              "label": "2",
+              "detail": "rocokingdom.comで事前登録し、Drowsiquackネームカードを確保する。"
+            },
+            {
+              "label": "3",
+              "detail": "Steam、Epic Games、PlayStation、Xboxでロコキングダムをウィッシュリストに追加する。"
+            },
+            {
+              "label": "4",
+              "detail": "ローンチ前に64ビット版Windows 10、16GB RAM、対応CPUを確認する。"
+            },
+            {
+              "label": "5",
+              "detail": "Steamクライアントまたは公式PCランチャーをインストールし、アカウントのメールを変更しない。"
+            },
+            {
+              "label": "6",
+              "detail": "WindowsとGPUドライバーを更新し、オープンワールド用にSSDの空き容量を確保する。"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "ロコキングダムのニュースとリリース情報",
+          "description": "Quack Quack Test、事前登録報酬、対応プラットフォーム、グローバルローンチに関する公式発表を追う。",
+          "href": "/release/roco-kingdom-global-release-date",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "10月27日",
+              "detail": "Quack Quack Testクローズドβは、PC、iOS、Androidで04:30 UTCに開始する。"
+            },
+            {
+              "label": "事前登録",
+              "detail": "事前登録は実施中で、オープンβ時にDrowsiquackネームカードが付与される。"
+            },
+            {
+              "label": "ストア",
+              "detail": "Steam、Epic Games、PlayStation、Xboxでウィッシュリストページが公開されている。"
+            },
+            {
+              "label": "ローンチ",
+              "detail": "グローバルリリース日とオープンβの日程はまだ発表されていない。"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "ロコキングダムに関するよくある質問",
+      "description": "ロコキングダムの初期クリーチャー、ジニー、進化、対応プラットフォーム、協力プレイ、β日程についての簡単な回答。",
+      "items": [
+        {
+          "question": "ロコキングダムとは何ですか？",
+          "answer": "ロコキングダムはMorefun Studiosによるオープンワールド・クリーチャー収集RPGです。カロシア大陸を舞台に、プレイヤーは400種以上の個性豊かなジニーを捕まえて育て、友達と探索し、レベルが均一化されたターン制PvPで戦います。"
+        },
+        {
+          "question": "初心者はどの初期クリーチャーを選ぶべきですか？",
+          "answer": "水の初期クリーチャーは失敗の許容度が最も高く、火は序盤戦を早く突破でき、自然は持続力と制御を提供します。予定しているチームとプレイスタイルに合うロコキングダムの初期クリーチャーを選びましょう。"
+        },
+        {
+          "question": "ロコキングダムのジニーはどう進化しますか？",
+          "answer": "各ロコキングダムのジニーは、レベル、アイテム、絆、条件など固有のトリガーを持つ決まった進化ラインに沿います。ライン全体を読み、必要なアイテムを確保し、ほとんどの進化が永続的であることを覚えておきましょう。"
+        },
+        {
+          "question": "ロコキングダムはいつリリースされますか？",
+          "answer": "ロコキングダムのQuack Quack Testクローズドβは、2026年10月27日04:30 UTCにPC、iOS、Androidで開始します。グローバルリリース日とオープンβの期間はまだ発表されていません。"
+        },
+        {
+          "question": "ロコキングダムは友達と一緒に遊べますか？",
+          "answer": "はい。ロコキングダムは協力騎乗、採集報酬の共有、戦闘経験値の共有、クロスプラットフォームプレイ、18クラスの属性相性システムを備えたターン制PvPデュエルに対応しています。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "ロコキングダムを探索する準備はできましたか？",
+      "description": "2026年10月27日のクローズドβに参加し、400種以上のジニーを発見し、コミュニティ制作の無料ガイドで戦略的PvPを極めよう。",
+      "primary": "初心者ガイドを読む",
+      "secondary": "Steamでウィッシュリスト登録"
+    }
+  },
+  "guide": {
+    "overviewTitle": "ロコキングダム初心者ガイド",
+    "overviewDescription": "初期スピリットの選び方、効率的なレベル上げルート、捕獲のコツ、チーム編成、戦闘の基礎を学び、ロコキングダムの最初の数時間を攻略しましょう。"
+  },
+  "release": {
+    "overviewTitle": "ロコキングダムのリリース・β情報",
+    "overviewDescription": "ロコキングダムのローンチ時期、クローズドβの詳細、事前登録報酬、対応プラットフォーム、グローバル展開の最新情報を追いましょう。"
+  },
+  "download": {
+    "overviewTitle": "ロコキングダムのダウンロードガイド",
+    "overviewDescription": "PC、Android、iOS向けのロコキングダムのダウンロード手順に加え、動作環境、ファイルサイズ、セットアップのヘルプを確認できます。"
+  },
+  "characters": {
+    "overviewTitle": "ロコキングダムのジニー・キャラクターガイド",
+    "overviewDescription": "ロコキングダムのジニー一覧、初期クリーチャー比較、進化経路、伝説のスピリット、色違い、チームでの役割をチェック。"
+  },
+  "mechanics": {
+    "overviewTitle": "ロコキングダムのメカニクス・システム",
+    "overviewDescription": "ロコキングダムの戦闘、属性相性、捕獲、進化、ガチャシステム、マネタイズを理解しましょう。"
+  },
+  "modes": {
+    "overviewTitle": "ロコキングダムのゲームモード",
+    "overviewDescription": "ロコキングダムのマルチプレイ、協力プレイ、PvP、オープンワールドのアクティビティ、住宅機能を探索しましょう。"
+  },
+  "community": {
+    "overviewTitle": "ロコキングダムのコミュニティ・アクセス",
+    "overviewDescription": "Discord、Reddit、公式サイト、英語版アクセスの情報、無料プレイの詳細を通じてロコキングダムのコミュニティとつながりましょう。"
+  },
+  "shared": {
+    "wikiNavigation": "Wikiナビゲーション",
+    "activeCodes": "有効なコード",
+    "updated": "更新日",
+    "viewAllCodes": "すべてのコードを見る",
+    "playOnRoblox": "Robloxでプレイ",
+    "inThisSection": "このセクション",
+    "tableOfContents": "目次",
+    "nextSteps": "次のステップ",
+    "needHelp": "助けが必要ですか？",
+    "relatedReading": "関連記事",
+    "relatedGuides": "関連ガイド",
+    "readMore": "続きを読む",
+    "officialMedia": "公式メディア",
+    "home": "ホーム",
+    "noGuidesAvailable": "まだ利用できるガイドはありません。しばらくしてから再度確認してください。"
+  },
+  "footer": {
+    "aboutTitle": "ロコキングダム Wiki",
+    "about": "ロコキングダム Wikiは、ジニー、世界探索、戦闘、PvP、β情報、ゲームの基礎知識を扱う独立系ファン制作のガイドハブです。新規プレイヤーからベテランまで役立つ情報を掲載しています。",
+    "quickLinks": "クイックリンク",
+    "guides": "ガイド",
+    "legal": "法的事項",
+    "copyright": "2026 ロコキングダム Wiki。ロコキングダムの公式開発元・パブリッシャーとは提携していません。",
+    "description": "400種以上のジニー、戦略的PvP、協力探索を楽しめるオープンワールド・クリーチャー収集RPG。PCとモバイルに対応。",
+    "playGame": "PC・モバイルでプレイ",
+    "officialDiscord": "公式Discord",
+    "officialYoutube": "公式YouTube",
+    "vvBuilder": "ロコキングダムのツール",
+    "beginnerGuide": "初心者ガイド",
+    "raceGuides": "ジニー・キャラクター",
+    "bossGuides": "戦闘ガイド",
+    "buildGuide": "メカニクス・システム",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約"
+  }
+}

@@ -1,1 +1,493 @@
-{}
+{
+  "site": {
+    "name": "로코 킹덤 위키",
+    "shortName": "로코 킹덤",
+    "tagline": "지니, 가이드 및 베타 뉴스",
+    "description": "로코 킹덤 위키에서 지니 수집, 초보자 가이드, 전투 전략, 월드 탐험, 베타 뉴스, 멀티플레이 팁, 크리처 가이드를 확인하세요.",
+    "legalNotice": "비공식 팬 위키입니다. 로코 킹덤 및 관련 자산의 권리는 각 소유자에게 있습니다."
+  },
+  "nav": {
+    "home": "홈",
+    "menu": "메뉴",
+    "toggleTheme": "테마 전환",
+    "guide": "가이드",
+    "release": "출시",
+    "download": "다운로드",
+    "characters": "캐릭터",
+    "mechanics": "메커니즘",
+    "modes": "모드",
+    "community": "커뮤니티"
+  },
+  "home": {
+    "meta": {
+      "title": "로코 킹덤 위키 — 지니, 가이드 및 베타 뉴스",
+      "description": "지니, 초기 크리처 선택, 진화, 전투, 오픈 월드 탐험, 클로즈드 베타 뉴스를 다루는 로코 킹덤 가이드."
+    },
+    "hero": {
+      "eyebrow": "오픈 월드 크리처 수집 RPG",
+      "title": "로코 킹덤 위키",
+      "description": "마법 같은 오픈 월드를 탐험하고 수백 가지 개성 넘치는 지니를 발견해 친구가 되세요. 친구들과 팀을 이루고 로코 킹덤의 전략적인 PvP 전투를 마스터하세요.",
+      "stats": [
+        "400종 이상의 개성 넘치는 지니",
+        "2026년 10월 27일 클로즈드 베타 시작",
+        "PC, iOS, Android 베타 플랫폼",
+        "베타 지원 언어: 영어, 일본어"
+      ],
+      "primaryCta": "초보자 가이드",
+      "secondaryCta": "PC 및 모바일로 플레이",
+      "tertiaryCta": "Steam 위시리스트 추가",
+      "videoLabel": "공식 트레일러"
+    },
+    "updates": {
+      "title": "최신 업데이트",
+      "browse": "모든 가이드 보기",
+      "viewAll": "전체 보기"
+    },
+    "start": {
+      "eyebrow": "여기서 시작하세요",
+      "title": "로코 킹덤 여정",
+      "cards": [
+        {
+          "number": "1",
+          "title": "초보자 가이드",
+          "description": "첫 48시간 루트를 따라 메인 퀘스트를 진행하고, 매직 핸드북 강의를 완료하며, 새로운 지니를 잡아 초반 경험치를 빠르게 획득하세요."
+        },
+        {
+          "number": "2",
+          "title": "가장 빠른 레벨업",
+          "description": "새로운 지니 등록, 메인 퀘스트, 핸드북 강의를 우선하고 보스와 희귀 조우를 위해 스태미나를 아껴 두세요."
+        },
+        {
+          "number": "3",
+          "title": "최고의 초기 크리처",
+          "description": "파트너를 선택하기 전에 불, 물, 자연 초기 크리처를 클리어 속도, 보스 안정성, 장기 팀 적합성으로 비교하세요."
+        },
+        {
+          "number": "4",
+          "title": "진화 방법",
+          "description": "각 진화 라인을 계획하고 필요한 아이템을 확보한 뒤, 기술이나 장비 자원을 쓰기 전에 진화하세요."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "인기 페이지",
+      "title": "지금 인기 있는 글",
+      "quickLinks": [
+        "초보자 가이드",
+        "모든 지니",
+        "전투 기초",
+        "출시 뉴스"
+      ],
+      "cards": [
+        {
+          "badge": "초보자",
+          "title": "로코 킹덤 초보자 가이드",
+          "description": "초기 크리처 조언, 빠른 경험치 획득처, 복종도 상한, 무료 로코벅스를 활용해 첫 48시간을 계획하세요.",
+          "href": "/guide/roco-kingdom-beginner-guide"
+        },
+        {
+          "badge": "인기",
+          "title": "로코 킹덤 모든 지니",
+          "description": "대표 지니, 보고된 능력치 총합, 타입 상성, 팀 구성 역할을 살펴보세요.",
+          "href": "/characters/roco-kingdom-all-jinies"
+        },
+        {
+          "badge": "가이드",
+          "title": "로코 킹덤 진화 가이드",
+          "description": "전체 진화 라인을 읽고 조건을 확인하며 영구적인 변신의 시점을 정하세요.",
+          "href": "/mechanics/roco-kingdom-evolution-guide"
+        },
+        {
+          "badge": "전투",
+          "title": "로코 킹덤 전투 시스템",
+          "description": "턴 순서, 별 스태미나, 스킬 특성, 18클래스 속성 상성망을 배우세요.",
+          "href": "/mechanics/roco-kingdom-combat-system"
+        },
+        {
+          "badge": "탐험",
+          "title": "로코 킹덤 오픈 월드",
+          "description": "카로시아를 탐험하고 400종 이상의 지니를 잡으며 친구와 함께 탑승하고 거점을 건설하세요.",
+          "href": "/modes/roco-kingdom-open-world"
+        },
+        {
+          "badge": "베타",
+          "title": "로코 킹덤 글로벌 출시일",
+          "description": "Quack Quack Test, 사전 등록 보상, 확정된 플랫폼을 확인하세요.",
+          "href": "/release/roco-kingdom-global-release-date"
+        },
+        {
+          "badge": "다운로드",
+          "title": "로코 킹덤 PC 요구 사항",
+          "description": "최소 및 권장 사양, RAM 요구량, 안티치트 관련 사항, 설치 단계를 확인하세요.",
+          "href": "/download/roco-kingdom-pc-requirements"
+        },
+        {
+          "badge": "초기",
+          "title": "로코 킹덤 최고의 초기 크리처",
+          "description": "불, 물, 자연 초기 크리처를 초반 템포와 팀 적합성으로 비교하세요.",
+          "href": "/characters/roco-kingdom-best-starter-comparison"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "로코 킹덤이란?",
+      "paragraphs": [
+        "로코 킹덤은 Morefun Studios가 만든 오픈 월드 크리처 수집 RPG입니다. 플레이어는 끊김 없이 이어지는 카로시아 대륙을 탐험하고 400종 이상의 개성 넘치는 지니를 만나 잡으며, 팀을 구성하고 레벨이 동일화되는 턴제 PvP에 참여합니다.",
+        "탐험 외에도 로코 킹덤에는 협동 탑승과 보상 공유, 매직 아카데미 수업, 주택 건설, 18클래스 속성 상성 시스템이 있습니다. Quack Quack Test라고 불리는 글로벌 클로즈드 베타는 2026년 10월 27일 PC, iOS, Android에서 시작될 예정입니다."
+      ],
+      "stats": [
+        {
+          "label": "개발",
+          "value": "Morefun Studios"
+        },
+        {
+          "label": "퍼블리셔",
+          "value": "Level Infinite"
+        },
+        {
+          "label": "장르",
+          "value": "크리처 수집 RPG"
+        },
+        {
+          "label": "플랫폼",
+          "value": "PC, PlayStation, Xbox, 모바일"
+        },
+        {
+          "label": "지니",
+          "value": "400종 이상"
+        },
+        {
+          "label": "속성 클래스",
+          "value": "18"
+        },
+        {
+          "label": "클로즈드 베타",
+          "value": "2026년 10월 27일"
+        }
+      ],
+      "cta": "모든 가이드 탐색"
+    },
+    "explore": {
+      "title": "로코 킹덤 위키 탐색",
+      "description": "초보자 루트, 전체 지니 색인, 진화 조언, 전투 전술, 탐험 팁, 베타 세부 정보로 로코 킹덤 모험을 계획하세요.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "로코 킹덤 초보자 가이드",
+          "description": "메인 퀘스트, 매직 핸드북 강의, 초기 크리처 선택, 스태미나 사용, 초반 경험치 획득처를 잇는 명확한 루트로 첫 48시간을 시작하세요.",
+          "href": "/guide/roco-kingdom-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "메인 퀘스트를 진행해 매직 핸드북, 탈것, 핵심 시스템을 해금하세요."
+            },
+            {
+              "label": "2",
+              "detail": "매직 핸드북 강의를 완료해 스태미나 1포인트당 높은 경험치를 얻으세요."
+            },
+            {
+              "label": "3",
+              "detail": "첫 등록 시 경험치를 주므로 만나는 새로운 지니를 모두 잡으세요."
+            },
+            {
+              "label": "4",
+              "detail": "친구 임무와 로코벅스 임무를 포함한 시간 제한 부가 퀘스트를 일찍 시작하세요."
+            },
+            {
+              "label": "5",
+              "detail": "피터 애비뉴의 99만 로코벅스를 포함해 코인 머신의 무료 보상을 받으세요."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "로코 킹덤 지니 가이드",
+          "description": "타입, 기본 능력치, 스킬, 진화 경로, 획득 메모로 지니를 살펴보고 각 항목을 팀 결정으로 연결하세요.",
+          "href": "/characters/roco-kingdom-all-jinies",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "목록",
+              "detail": "커뮤니티 데이터베이스에는 18개 타입의 지니 644종이 등록되어 있으며, 오픈 월드에는 400종 이상이 등장합니다."
+            },
+            {
+              "label": "능력치",
+              "detail": "자원을 투자하기 전에 기본 능력치, IV 품질, 성격, 훈련 진행도를 비교하세요."
+            },
+            {
+              "label": "역할",
+              "detail": "주 공격수, 내구형 앵커, 범용 보완 픽, 유연한 고성장 슬롯으로 팀을 구성하세요."
+            },
+            {
+              "label": "진화",
+              "detail": "나중에 교체할 수 있는 지니를 육성하기 전에 전체 진화 체인을 확인하세요."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "로코 킹덤 코드",
+          "description": "로코 킹덤 공식 코드 발표, 사용 단계, 프로모션이 시작될 때 필요한 계정 정보를 확인하세요.",
+          "href": "/community/roco-kingdom-official-website",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "뉴스",
+              "detail": "공식 사이트와 뉴스 피드에서 출시 프로모션과 코드 발표를 확인하세요."
+            },
+            {
+              "label": "X",
+              "detail": "@RocoKingdomEN을 팔로우해 코드 배포와 클로즈드 베타 공지를 확인하세요."
+            },
+            {
+              "label": "Discord",
+              "detail": "공식 로코 킹덤 Discord에 참여해 사용 업데이트와 커뮤니티 알림을 받으세요."
+            },
+            {
+              "label": "계정",
+              "detail": "향후 보상을 위해 사전 등록에 사용한 Level Infinite 계정과 이메일을 준비하세요."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "로코 킹덤 지니 티어 리스트",
+          "description": "커뮤니티가 추적한 기본 능력치 총합으로 대표 지니의 순위를 매기고, 투자 전에 타입, 스킬 풀, 팀 역할을 확인하세요.",
+          "href": "/characters/roco-kingdom-all-jinies",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "디모 — 빛 타입이며 보고된 능력치 총합은 582로 대표 지니 중 가장 높습니다."
+            },
+            {
+              "label": "A",
+              "detail": "수이란란 — 물 타입이며 보고된 총합은 372이고 안정적이고 유연한 팀 역할을 맡습니다."
+            },
+            {
+              "label": "B",
+              "detail": "미아오미아오 — 풀 타입이며 보고된 총합은 370이고 균형 잡힌 팀에 유용한 범용성을 제공합니다."
+            },
+            {
+              "label": "C",
+              "detail": "후오후아 — 불 타입이며 보고된 총합은 368이지만 초반 압박력이 강합니다."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "로코 킹덤 전투 가이드",
+          "description": "턴제 전투 흐름, 별 스태미나 관리, 상성 판단, 팀 역할, 공정한 PvP 전술을 배우세요.",
+          "href": "/guide/roco-kingdom-battle-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "턴",
+              "detail": "양측이 순서대로 행동하며, 미리 선택한 네 가지 스킬과 스태미나 바가 매 교전을 결정합니다."
+            },
+            {
+              "label": "스태미나",
+              "detail": "공격은 별 스태미나를 소모하며, 바가 낮으면 회복 턴을 써야 합니다."
+            },
+            {
+              "label": "상성",
+              "detail": "UI에 약점이 표시되므로 숙련된 플레이어는 상대 공격을 저항 속성으로 유도합니다."
+            },
+            {
+              "label": "역할",
+              "detail": "피해량만 쌓지 말고 선봉, 벽 파괴자, 피벗, 마무리 역할을 구성하세요."
+            },
+            {
+              "label": "공정한 PvP",
+              "detail": "PvP에서는 레벨이 동일화되므로 팀 구성과 상성 판단이 결과를 크게 좌우합니다."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "로코 킹덤 탐험 가이드",
+          "description": "카로시아를 누비고 야생 지니를 만나며 협동 보상을 공유하고 오픈 월드 시스템을 최대한 활용하세요.",
+          "href": "/modes/roco-kingdom-open-world",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "카로시아",
+              "detail": "탈것, 스태미나 관리, 지역별 지니를 활용해 하나로 이어진 대륙을 탐험하세요."
+            },
+            {
+              "label": "협동",
+              "detail": "친구와 지니에 함께 탑승하고 채집 보상을 공유하며 전투 경험치를 나누세요."
+            },
+            {
+              "label": "아카데미",
+              "detail": "학교를 선택하고 야외 교실에 참여해 아카데미 포인트 토너먼트에서 순위를 올리세요."
+            },
+            {
+              "label": "주택",
+              "detail": "전 세계에서 자원을 모으면서 나만의 거점을 짓고 꾸미세요."
+            },
+            {
+              "label": "형태",
+              "detail": "일반, 프리즘, 크로마틱, 악몽에 오염된 지니 출현을 찾아보세요."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "로코 킹덤 다운로드 및 시스템 요구 사항",
+          "description": "계정 설정, 스토어 위시리스트, 확정된 사양, 출시일 확인 사항을 준비해 PC, Android, iOS 접속에 대비하세요.",
+          "href": "/download/roco-kingdom-pc-requirements",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "베타 접속과 출시 보상을 위해 Level Infinite 계정을 만들거나 로그인하세요."
+            },
+            {
+              "label": "2",
+              "detail": "rocokingdom.com에서 사전 등록해 Drowsiquack 네임 카드를 확보하세요."
+            },
+            {
+              "label": "3",
+              "detail": "Steam, Epic Games, PlayStation, Xbox에서 로코 킹덤을 위시리스트에 추가하세요."
+            },
+            {
+              "label": "4",
+              "detail": "출시 전에 64비트 Windows 10, 16GB RAM, 지원 CPU를 확인하세요."
+            },
+            {
+              "label": "5",
+              "detail": "Steam 클라이언트 또는 공식 PC 런처를 설치하고 계정 이메일을 변경하지 마세요."
+            },
+            {
+              "label": "6",
+              "detail": "Windows와 GPU 드라이버를 업데이트하고 오픈 월드를 위해 SSD 여유 공간을 확보하세요."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "로코 킹덤 뉴스 및 출시 업데이트",
+          "description": "Quack Quack Test, 사전 등록 보상, 플랫폼 제공 여부, 글로벌 출시에 대한 공식 발표를 확인하세요.",
+          "href": "/release/roco-kingdom-global-release-date",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "10월 27일",
+              "detail": "Quack Quack Test 클로즈드 베타는 PC, iOS, Android에서 04:30 UTC에 시작됩니다."
+            },
+            {
+              "label": "사전 등록",
+              "detail": "사전 등록이 진행 중이며 오픈 베타 시 Drowsiquack 네임 카드를 제공합니다."
+            },
+            {
+              "label": "스토어",
+              "detail": "Steam, Epic Games, PlayStation, Xbox에서 위시리스트 페이지를 이용할 수 있습니다."
+            },
+            {
+              "label": "출시",
+              "detail": "글로벌 출시일과 오픈 베타 일정은 아직 발표되지 않았습니다."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "로코 킹덤 자주 묻는 질문",
+      "description": "로코 킹덤의 초기 크리처, 지니, 진화, 플랫폼, 협동 플레이, 베타 일정에 대한 빠른 답변.",
+      "items": [
+        {
+          "question": "로코 킹덤이란 무엇인가요?",
+          "answer": "로코 킹덤은 Morefun Studios의 오픈 월드 크리처 수집 RPG입니다. 카로시아 대륙을 배경으로 플레이어는 400종 이상의 개성 넘치는 지니를 잡고 키우며, 친구와 함께 탐험하고 레벨이 동일화되는 턴제 PvP에서 전투합니다."
+        },
+        {
+          "question": "초보자는 어떤 로코 킹덤 초기 크리처를 선택해야 하나요?",
+          "answer": "물 초기 크리처는 실수 허용 범위가 가장 넓고, 불 초기 크리처는 초반 전투를 더 빠르게 돌파하며, 자연 초기 크리처는 지속력과 제어를 제공합니다. 계획한 팀과 플레이 스타일에 맞는 로코 킹덤 초기 크리처를 선택하세요."
+        },
+        {
+          "question": "로코 킹덤 지니는 어떻게 진화하나요?",
+          "answer": "각 로코 킹덤 지니는 레벨, 아이템, 유대, 조건 등 고유한 발동 조건을 가진 정해진 진화 라인을 따릅니다. 전체 라인을 읽고 필요한 아이템을 확보하며, 대부분의 진화가 영구적이라는 점을 기억하세요."
+        },
+        {
+          "question": "로코 킹덤은 언제 출시되나요?",
+          "answer": "로코 킹덤 Quack Quack Test 클로즈드 베타는 2026년 10월 27일 04:30 UTC에 PC, iOS, Android에서 시작됩니다. 글로벌 출시일과 오픈 베타 기간은 아직 발표되지 않았습니다."
+        },
+        {
+          "question": "로코 킹덤을 친구와 함께 플레이할 수 있나요?",
+          "answer": "네. 로코 킹덤은 협동 탑승, 채집 보상 공유, 전투 경험치 공유, 크로스 플랫폼 플레이, 18클래스 속성 상성 시스템을 갖춘 턴제 PvP 결투를 지원합니다."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "로코 킹덤을 탐험할 준비가 되셨나요?",
+      "description": "2026년 10월 27일 클로즈드 베타에 참여하고 400종 이상의 지니를 발견하며, 커뮤니티가 만든 무료 가이드로 전략적 PvP를 마스터하세요.",
+      "primary": "초보자 가이드 읽기",
+      "secondary": "Steam 위시리스트 추가"
+    }
+  },
+  "guide": {
+    "overviewTitle": "로코 킹덤 초보자 가이드",
+    "overviewDescription": "초기 스피릿 조언, 빠른 레벨업 루트, 포획 팁, 팀 구성, 전투 기본기를 익혀 로코 킹덤의 첫 시간을 완벽하게 보내세요."
+  },
+  "release": {
+    "overviewTitle": "로코 킹덤 출시 및 베타 뉴스",
+    "overviewDescription": "로코 킹덤 출시 일정, 클로즈드 베타 세부 정보, 사전 등록 보상, 지원 플랫폼, 글로벌 이용 가능성 업데이트를 확인하세요."
+  },
+  "download": {
+    "overviewTitle": "로코 킹덤 다운로드 가이드",
+    "overviewDescription": "PC, Android, iOS용 로코 킹덤 다운로드 단계와 시스템 요구 사항, 파일 크기, 설치 도움말을 확인하세요."
+  },
+  "characters": {
+    "overviewTitle": "로코 킹덤 지니 및 캐릭터 가이드",
+    "overviewDescription": "로코 킹덤 지니 목록, 초기 크리처 비교, 진화 경로, 전설 스피릿, 색이 다른 변이, 팀 역할을 살펴보세요."
+  },
+  "mechanics": {
+    "overviewTitle": "로코 킹덤 메커니즘 및 시스템",
+    "overviewDescription": "로코 킹덤 전투, 속성 상성, 포획, 진화, 가챠 시스템, 수익화 구조를 이해하세요."
+  },
+  "modes": {
+    "overviewTitle": "로코 킹덤 게임 모드",
+    "overviewDescription": "로코 킹덤 멀티플레이, 협동 플레이, PvP, 오픈 월드 활동, 주택 기능을 탐험하세요."
+  },
+  "community": {
+    "overviewTitle": "로코 킹덤 커뮤니티 및 접속 정보",
+    "overviewDescription": "Discord, Reddit, 공식 웹사이트, 영어판 접속 정보, 무료 플레이 세부 내용을 통해 로코 킹덤 커뮤니티와 연결하세요."
+  },
+  "shared": {
+    "wikiNavigation": "위키 내비게이션",
+    "activeCodes": "활성 코드",
+    "updated": "업데이트",
+    "viewAllCodes": "모든 코드 보기",
+    "playOnRoblox": "Roblox에서 플레이",
+    "inThisSection": "이 섹션",
+    "tableOfContents": "목차",
+    "nextSteps": "다음 단계",
+    "needHelp": "도움이 필요하신가요?",
+    "relatedReading": "관련 읽을거리",
+    "relatedGuides": "관련 가이드",
+    "readMore": "더 읽기",
+    "officialMedia": "공식 미디어",
+    "home": "홈",
+    "noGuidesAvailable": "아직 이용 가능한 가이드가 없습니다. 곧 다시 확인해 주세요."
+  },
+  "footer": {
+    "aboutTitle": "로코 킹덤 위키",
+    "about": "로코 킹덤 위키는 지니, 월드 탐험, 전투, PvP, 베타 뉴스, 핵심 게임 지식을 다루는 독립 팬 제작 가이드 허브입니다. 신규 플레이어와 베테랑 모두에게 유용한 정보를 제공합니다.",
+    "quickLinks": "빠른 링크",
+    "guides": "가이드",
+    "legal": "법적 고지",
+    "copyright": "2026 로코 킹덤 위키. 로코 킹덤 공식 개발사 또는 퍼블리셔와 제휴하지 않습니다.",
+    "description": "400종 이상의 지니, 전략적 PvP, 협동 탐험을 즐길 수 있는 오픈 월드 크리처 수집 RPG. PC와 모바일 지원.",
+    "playGame": "PC 및 모바일로 플레이",
+    "officialDiscord": "공식 Discord",
+    "officialYoutube": "공식 YouTube",
+    "vvBuilder": "로코 킹덤 도구",
+    "beginnerGuide": "초보자 가이드",
+    "raceGuides": "지니 및 캐릭터",
+    "bossGuides": "전투 가이드",
+    "buildGuide": "메커니즘 및 시스템",
+    "privacyPolicy": "개인정보 처리방침",
+    "termsOfService": "이용 약관"
+  }
+}

@@ -1,1 +1,493 @@
-{}
+{
+  "site": {
+    "name": "Roco Kingdom Wiki",
+    "shortName": "Roco Kingdom",
+    "tagline": "Jinies, guías y noticias de la beta",
+    "description": "Explora Roco Kingdom Wiki para descubrir la colección de Jinies, guías para principiantes, estrategias de combate, exploración del mundo, noticias de la beta, consejos multijugador y guías de criaturas.",
+    "legalNotice": "Wiki de fans no oficial. Roco Kingdom y sus recursos relacionados pertenecen a sus respectivos propietarios."
+  },
+  "nav": {
+    "home": "Inicio",
+    "menu": "Menú",
+    "toggleTheme": "Cambiar tema",
+    "guide": "Guía",
+    "release": "Lanzamiento",
+    "download": "Descarga",
+    "characters": "Personajes",
+    "mechanics": "Mecánicas",
+    "modes": "Modos",
+    "community": "Comunidad"
+  },
+  "home": {
+    "meta": {
+      "title": "Roco Kingdom Wiki — Jinies, guías y noticias de la beta",
+      "description": "Guías de Roco Kingdom sobre Jinies, elección de inicial, evolución, combate, exploración del mundo abierto y noticias de la beta cerrada."
+    },
+    "hero": {
+      "eyebrow": "RPG de colección de criaturas en mundo abierto",
+      "title": "Roco Kingdom Wiki",
+      "description": "Explora un mundo abierto mágico, descubre y hazte amigo de cientos de Jinies únicos, forma equipo con tus amigos y domina los combates PvP tácticos en Roco Kingdom.",
+      "stats": [
+        "Más de 400 Jinies únicos",
+        "Beta cerrada: 27 de octubre de 2026",
+        "Plataformas de beta: PC, iOS y Android",
+        "Idiomas de la beta: inglés y japonés"
+      ],
+      "primaryCta": "Guía para principiantes",
+      "secondaryCta": "Jugar en PC y móvil",
+      "tertiaryCta": "Añadir a deseados en Steam",
+      "videoLabel": "Tráiler oficial"
+    },
+    "updates": {
+      "title": "Últimas novedades",
+      "browse": "Ver todas las guías",
+      "viewAll": "Ver todo"
+    },
+    "start": {
+      "eyebrow": "Empieza aquí",
+      "title": "Tu aventura en Roco Kingdom",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guía para principiantes",
+          "description": "Sigue la ruta de las primeras 48 horas: avanza en la misión principal, completa los cursos del Manual Mágico y captura nuevos Jinies para ganar experiencia rápido."
+        },
+        {
+          "number": "2",
+          "title": "Subida de nivel más rápida",
+          "description": "Prioriza los registros de nuevos Jinies, las misiones principales y los cursos del Manual mientras reservas resistencia para jefes y encuentros raros."
+        },
+        {
+          "number": "3",
+          "title": "Mejor inicial",
+          "description": "Compara los iniciales de Fuego, Agua y Naturaleza por velocidad de avance, seguridad contra jefes y encaje a largo plazo antes de elegir a tu compañero."
+        },
+        {
+          "number": "4",
+          "title": "Cómo evolucionar",
+          "description": "Planifica cada línea evolutiva, guarda el objeto necesario y evoluciona antes de gastar recursos en movimientos o equipo."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Tendencias actuales",
+      "quickLinks": [
+        "Guía para principiantes",
+        "Todos los Jinies",
+        "Conceptos básicos de combate",
+        "Noticias del lanzamiento"
+      ],
+      "cards": [
+        {
+          "badge": "Principiante",
+          "title": "Guía para principiantes de Roco Kingdom",
+          "description": "Planifica tus primeras 48 horas con consejos de inicial, fuentes rápidas de EXP, límites de obediencia y RocoBucks gratis.",
+          "href": "/guide/roco-kingdom-beginner-guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "Todos los Jinies de Roco Kingdom",
+          "description": "Consulta Jinies destacados, totales de estadísticas reportados, enfrentamientos de tipos y roles para formar equipo.",
+          "href": "/characters/roco-kingdom-all-jinies"
+        },
+        {
+          "badge": "Guía",
+          "title": "Guía de evolución de Roco Kingdom",
+          "description": "Lee las líneas evolutivas completas, confirma los desencadenantes y elige el momento de cada transformación permanente.",
+          "href": "/mechanics/roco-kingdom-evolution-guide"
+        },
+        {
+          "badge": "Combate",
+          "title": "Sistema de combate de Roco Kingdom",
+          "description": "Aprende el orden de turnos, la resistencia estelar, los rasgos de habilidad y la red de contraataques de 18 clases elementales.",
+          "href": "/mechanics/roco-kingdom-combat-system"
+        },
+        {
+          "badge": "Exploración",
+          "title": "Mundo abierto de Roco Kingdom",
+          "description": "Explora Carosia, captura más de 400 Jinies, monta con tus amigos y construye una base propia.",
+          "href": "/modes/roco-kingdom-open-world"
+        },
+        {
+          "badge": "Beta",
+          "title": "Fecha de lanzamiento global de Roco Kingdom",
+          "description": "Sigue la Quack Quack Test, las recompensas de prerregistro y las plataformas confirmadas.",
+          "href": "/release/roco-kingdom-global-release-date"
+        },
+        {
+          "badge": "Descarga",
+          "title": "Requisitos de PC de Roco Kingdom",
+          "description": "Consulta los requisitos mínimos y recomendados, la memoria RAM necesaria, notas sobre el anticheat y los pasos de instalación.",
+          "href": "/download/roco-kingdom-pc-requirements"
+        },
+        {
+          "badge": "Inicial",
+          "title": "Mejor inicial de Roco Kingdom",
+          "description": "Compara las criaturas iniciales de Fuego, Agua y Naturaleza por su ritmo inicial y su encaje en el equipo.",
+          "href": "/characters/roco-kingdom-best-starter-comparison"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es Roco Kingdom?",
+      "paragraphs": [
+        "Roco Kingdom es un RPG de colección de criaturas en mundo abierto de Morefun Studios. Los jugadores exploran el continente continuo de Carosia, conocen y capturan más de 400 Jinies únicos, forman un equipo y participan en combates PvP por turnos con niveles igualados.",
+        "Además de la exploración, Roco Kingdom incluye montura cooperativa y recompensas compartidas, clases de la Academia Mágica, construcción de hogar y un sistema de contraataques de 18 clases elementales. La beta cerrada global, llamada Quack Quack Test, está prevista para el 27 de octubre de 2026 en PC, iOS y Android."
+      ],
+      "stats": [
+        {
+          "label": "Desarrollador",
+          "value": "Morefun Studios"
+        },
+        {
+          "label": "Editor",
+          "value": "Level Infinite"
+        },
+        {
+          "label": "Género",
+          "value": "RPG de colección de criaturas"
+        },
+        {
+          "label": "Plataformas",
+          "value": "PC, PlayStation, Xbox y móvil"
+        },
+        {
+          "label": "Jinies",
+          "value": "Más de 400"
+        },
+        {
+          "label": "Clases elementales",
+          "value": "18"
+        },
+        {
+          "label": "Beta cerrada",
+          "value": "27 oct 2026"
+        }
+      ],
+      "cta": "Explorar todas las guías"
+    },
+    "explore": {
+      "title": "Explora Roco Kingdom Wiki",
+      "description": "Planifica tu aventura en Roco Kingdom con rutas para principiantes, un índice completo de Jinies, consejos de evolución, tácticas de combate, consejos de exploración y detalles de la beta.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guía para principiantes de Roco Kingdom",
+          "description": "Empieza tus primeras 48 horas con una ruta clara por la misión principal, los cursos del Manual Mágico, la elección de inicial, el uso de resistencia y las fuentes tempranas de EXP.",
+          "href": "/guide/roco-kingdom-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Avanza en la misión principal para desbloquear el Manual Mágico, las monturas y los sistemas principales."
+            },
+            {
+              "label": "2",
+              "detail": "Completa los cursos del Manual Mágico para obtener una gran cantidad de EXP por cada punto de resistencia."
+            },
+            {
+              "label": "3",
+              "detail": "Captura cada Jinie nuevo que encuentres porque los primeros registros otorgan experiencia."
+            },
+            {
+              "label": "4",
+              "detail": "Empieza pronto las misiones secundarias con límite de tiempo, incluida la tarea de amigos y la de RocoBucks."
+            },
+            {
+              "label": "5",
+              "detail": "Recoge recompensas gratuitas de la máquina de monedas, incluidos 990 000 RocoBucks en Peter Avenue."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guía de Jinies de Roco Kingdom",
+          "description": "Consulta Jinies por tipo, estadísticas base, habilidades, ruta evolutiva y notas de obtención, y convierte cada ficha en una decisión para tu equipo.",
+          "href": "/characters/roco-kingdom-all-jinies",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Lista",
+              "detail": "Las bases de datos de la comunidad registran 644 Jinies de 18 tipos, mientras que el mundo abierto incluye más de 400."
+            },
+            {
+              "label": "Estadísticas",
+              "detail": "Compara estadísticas base, calidad de IV, naturaleza y progreso de entrenamiento antes de invertir recursos."
+            },
+            {
+              "label": "Roles",
+              "detail": "Forma un atacante principal, un ancla resistente, una opción de cobertura y una ranura flexible con alto potencial."
+            },
+            {
+              "label": "Evolución",
+              "detail": "Lee la cadena evolutiva completa antes de subir de nivel a un Jinie que podrías sustituir más adelante."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Códigos de Roco Kingdom",
+          "description": "Sigue los anuncios oficiales de códigos de Roco Kingdom, los pasos de canje y los datos de cuenta necesarios cuando se activen las promociones.",
+          "href": "/community/roco-kingdom-official-website",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Noticias",
+              "detail": "Sigue el sitio oficial y el canal de noticias para conocer promociones de lanzamiento y anuncios de códigos."
+            },
+            {
+              "label": "X",
+              "detail": "Sigue a @RocoKingdomEN para enterarte de códigos y avisos de la beta cerrada."
+            },
+            {
+              "label": "Discord",
+              "detail": "Únete al Discord oficial de Roco Kingdom para recibir novedades de canje y alertas de la comunidad."
+            },
+            {
+              "label": "Cuenta",
+              "detail": "Ten preparada la cuenta de Level Infinite y el correo usados en el prerregistro para futuras recompensas."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Lista de niveles de Jinies de Roco Kingdom",
+          "description": "Clasifica los Jinies destacados según los totales de estadísticas base que sigue la comunidad y revisa tipo, habilidades y rol antes de invertir.",
+          "href": "/characters/roco-kingdom-all-jinies",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Dimo: tipo Luz con un total de estadísticas reportado de 582, el más alto entre los Jinies destacados."
+            },
+            {
+              "label": "A",
+              "detail": "Shuilanlan: tipo Agua con un total reportado de 372 y un rol de equipo estable y flexible."
+            },
+            {
+              "label": "B",
+              "detail": "Miaomiao: tipo Planta con un total reportado de 370 y una cobertura útil para un equipo equilibrado."
+            },
+            {
+              "label": "C",
+              "detail": "Huohua: tipo Fuego con un total reportado de 368 y una fuerte presión temprana pese al total más bajo."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Guía de combate de Roco Kingdom",
+          "description": "Aprende el flujo de los combates por turnos, la gestión de la resistencia estelar, la lectura de enfrentamientos, los roles de equipo y las tácticas de PvP justo.",
+          "href": "/guide/roco-kingdom-battle-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Turnos",
+              "detail": "Ambos bandos actúan por orden, con cuatro habilidades preseleccionadas y una barra de resistencia que decide cada intercambio."
+            },
+            {
+              "label": "Resistencia",
+              "detail": "Los ataques consumen resistencia estelar y una barra baja obliga a dedicar un turno a recuperarla."
+            },
+            {
+              "label": "Enfrentamientos",
+              "detail": "La interfaz señala las debilidades, así que los jugadores expertos atraen ataques hacia resistencias."
+            },
+            {
+              "label": "Roles",
+              "detail": "Forma un iniciador, un rompemuros, un pivote y un rematador en lugar de acumular daño."
+            },
+            {
+              "label": "PvP justo",
+              "detail": "Los niveles se igualan en PvP, por lo que el resultado depende más de la composición y la lectura de enfrentamientos."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guía de exploración de Roco Kingdom",
+          "description": "Recorre Carosia, conoce Jinies salvajes, comparte recompensas cooperativas y aprovecha al máximo los sistemas de mundo abierto.",
+          "href": "/modes/roco-kingdom-open-world",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Carosia",
+              "detail": "Explora un continente continuo con monturas, gestión de resistencia y Jinies propios de cada región."
+            },
+            {
+              "label": "Cooperativo",
+              "detail": "Monta un Jinie con un amigo, comparte recompensas de recolección y reparte la EXP de combate."
+            },
+            {
+              "label": "Academia",
+              "detail": "Elige una escuela, asiste al Aula al Aire Libre y asciende en el Torneo de Puntos de la Academia."
+            },
+            {
+              "label": "Vivienda",
+              "detail": "Construye y decora una base personal mientras reúnes recursos por todo el mundo."
+            },
+            {
+              "label": "Formas",
+              "detail": "Busca apariciones de Jini estándar, prismático, cromático y corrompido por pesadillas."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Descarga y requisitos del sistema de Roco Kingdom",
+          "description": "Prepárate para acceder desde PC, Android e iOS con la configuración de cuenta, las listas de deseados, los requisitos confirmados y las comprobaciones del día de lanzamiento.",
+          "href": "/download/roco-kingdom-pc-requirements",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Crea una cuenta de Level Infinite o inicia sesión para acceder a la beta y recibir recompensas de lanzamiento."
+            },
+            {
+              "label": "2",
+              "detail": "Prerregístrate en rocokingdom.com para asegurar la tarjeta de nombre Drowsiquack."
+            },
+            {
+              "label": "3",
+              "detail": "Añade Roco Kingdom a tus deseados en Steam, Epic Games, PlayStation y Xbox."
+            },
+            {
+              "label": "4",
+              "detail": "Comprueba que tienes Windows 10 de 64 bits, 16 GB de RAM y una CPU compatible antes del lanzamiento."
+            },
+            {
+              "label": "5",
+              "detail": "Instala el cliente de Steam o el lanzador oficial de PC y no cambies el correo de tu cuenta."
+            },
+            {
+              "label": "6",
+              "detail": "Actualiza Windows y los controladores de la GPU, y libera espacio en el SSD para el mundo abierto."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Noticias y novedades de lanzamiento de Roco Kingdom",
+          "description": "Sigue los anuncios oficiales sobre la Quack Quack Test, las recompensas de prerregistro, las plataformas disponibles y el lanzamiento global.",
+          "href": "/release/roco-kingdom-global-release-date",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "27 oct",
+              "detail": "La beta cerrada Quack Quack Test comienza a las 04:30 UTC en PC, iOS y Android."
+            },
+            {
+              "label": "Prerregistro",
+              "detail": "El prerregistro está abierto y otorga la tarjeta de nombre Drowsiquack en la beta abierta."
+            },
+            {
+              "label": "Tiendas",
+              "detail": "Las páginas de deseados están disponibles en Steam, Epic Games, PlayStation y Xbox."
+            },
+            {
+              "label": "Lanzamiento",
+              "detail": "Todavía no se han anunciado la fecha de lanzamiento global ni el calendario de la beta abierta."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre Roco Kingdom",
+      "description": "Respuestas rápidas sobre los iniciales, los Jinies, la evolución, las plataformas, el cooperativo y las fechas de la beta de Roco Kingdom.",
+      "items": [
+        {
+          "question": "¿Qué es Roco Kingdom?",
+          "answer": "Roco Kingdom es un RPG de colección de criaturas en mundo abierto de Morefun Studios. Se desarrolla en el continente de Carosia, donde los jugadores capturan y entrenan más de 400 Jinies únicos, exploran con amigos y combaten en PvP por turnos con niveles igualados."
+        },
+        {
+          "question": "¿Qué inicial de Roco Kingdom deberían elegir los principiantes?",
+          "answer": "El inicial de Agua ofrece el mayor margen de error, mientras que el de Fuego supera antes los combates iniciales y el de Naturaleza aporta sostenibilidad y control. Elige el inicial de Roco Kingdom que mejor encaje con tu equipo y estilo de juego."
+        },
+        {
+          "question": "¿Cómo evolucionan los Jinies de Roco Kingdom?",
+          "answer": "Cada Jinie de Roco Kingdom sigue una línea evolutiva definida con su propio desencadenante, como un nivel, un objeto, un vínculo o una condición. Lee la línea completa, guarda el objeto necesario y recuerda que la mayoría de las evoluciones son permanentes."
+        },
+        {
+          "question": "¿Cuándo se lanza Roco Kingdom?",
+          "answer": "La beta cerrada Quack Quack Test de Roco Kingdom comienza el 27 de octubre de 2026 a las 04:30 UTC para PC, iOS y Android. No se han anunciado la fecha de lanzamiento global ni la ventana de beta abierta."
+        },
+        {
+          "question": "¿Puedo jugar a Roco Kingdom con amigos?",
+          "answer": "Sí. Roco Kingdom admite montura cooperativa, recompensas de recolección compartidas, EXP de combate compartida, juego multiplataforma y duelos PvP por turnos con un sistema de contraataques de 18 clases elementales."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "¿Listo para explorar Roco Kingdom?",
+      "description": "Únete a la beta cerrada el 27 de octubre de 2026, descubre más de 400 Jinies y domina el PvP táctico con nuestras guías gratuitas creadas por la comunidad.",
+      "primary": "Leer la guía para principiantes",
+      "secondary": "Añadir a deseados en Steam"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guías para principiantes de Roco Kingdom",
+    "overviewDescription": "Domina tus primeras horas en Roco Kingdom con consejos sobre espíritus iniciales, rutas de nivelación rápida, consejos de captura, formación de equipo y fundamentos de combate."
+  },
+  "release": {
+    "overviewTitle": "Lanzamiento y noticias de la beta de Roco Kingdom",
+    "overviewDescription": "Sigue las fechas de lanzamiento de Roco Kingdom, los detalles de la beta cerrada, las recompensas de prerregistro, las plataformas compatibles y las novedades de disponibilidad global."
+  },
+  "download": {
+    "overviewTitle": "Guías de descarga de Roco Kingdom",
+    "overviewDescription": "Encuentra los pasos para descargar Roco Kingdom en PC, Android e iOS, además de requisitos del sistema, tamaño de archivo y ayuda de instalación."
+  },
+  "characters": {
+    "overviewTitle": "Guías de Jinies y personajes de Roco Kingdom",
+    "overviewDescription": "Consulta listas de Jinies de Roco Kingdom, comparativas de iniciales, rutas de evolución, espíritus legendarios, variantes brillantes y roles de equipo."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecánicas y sistemas de Roco Kingdom",
+    "overviewDescription": "Comprende el combate de Roco Kingdom, los enfrentamientos elementales, la captura, la evolución, los sistemas gacha y la monetización."
+  },
+  "modes": {
+    "overviewTitle": "Modos de juego de Roco Kingdom",
+    "overviewDescription": "Explora el multijugador de Roco Kingdom, el juego cooperativo, el PvP, las actividades de mundo abierto y las funciones de vivienda."
+  },
+  "community": {
+    "overviewTitle": "Comunidad y acceso de Roco Kingdom",
+    "overviewDescription": "Conecta con la comunidad de Roco Kingdom a través de Discord, Reddit, el sitio oficial, notas de acceso en inglés y detalles sobre el modelo gratuito."
+  },
+  "shared": {
+    "wikiNavigation": "Navegación de la wiki",
+    "activeCodes": "Códigos activos",
+    "updated": "Actualizado",
+    "viewAllCodes": "Ver todos los códigos",
+    "playOnRoblox": "Jugar en Roblox",
+    "inThisSection": "En esta sección",
+    "tableOfContents": "Índice",
+    "nextSteps": "Siguientes pasos",
+    "needHelp": "¿Necesitas ayuda?",
+    "relatedReading": "Lecturas relacionadas",
+    "relatedGuides": "Guías relacionadas",
+    "readMore": "Leer más",
+    "officialMedia": "Medios oficiales",
+    "home": "Inicio",
+    "noGuidesAvailable": "Todavía no hay guías disponibles. Vuelve pronto."
+  },
+  "footer": {
+    "aboutTitle": "Roco Kingdom Wiki",
+    "about": "Roco Kingdom Wiki es un centro de guías independiente creado por fans que cubre Jinies, exploración del mundo, combate, PvP, noticias de la beta y conocimientos esenciales del juego para jugadores nuevos y veteranos.",
+    "quickLinks": "Enlaces rápidos",
+    "guides": "Guías",
+    "legal": "Legal",
+    "copyright": "2026 Roco Kingdom Wiki. No está afiliada a los desarrolladores ni editores oficiales de Roco Kingdom.",
+    "description": "RPG de colección de criaturas en mundo abierto con más de 400 Jinies, PvP táctico y exploración cooperativa en PC y móvil.",
+    "playGame": "Jugar en PC y móvil",
+    "officialDiscord": "Discord oficial",
+    "officialYoutube": "YouTube oficial",
+    "vvBuilder": "Herramientas de Roco Kingdom",
+    "beginnerGuide": "Guía para principiantes",
+    "raceGuides": "Jinies y personajes",
+    "bossGuides": "Guía de combate",
+    "buildGuide": "Mecánicas y sistemas",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos del servicio"
+  }
+}

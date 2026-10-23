@@ -33,6 +33,6 @@ export const siteConfig: SiteConfig = {
     youtube: "https://www.youtube.com/@RocoKingdomgame",
     twitter: "https://x.com/RocoKingdomEN",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "ja", "ko", "es"],
   defaultLocale: "en",
 };
